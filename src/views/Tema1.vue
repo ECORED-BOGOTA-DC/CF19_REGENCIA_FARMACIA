@@ -499,23 +499,86 @@
                 th Abreviatura
             tbody
               tr
-                td Peso
+                <td rowspan="3">Peso</td> 
                 td 1 kilogramo
                 td 1 k
                 td 1000 gramos
                 td 1000 g
               tr
-                td Volumen
-                td 
-                td Celda 3
-                td Celda 4
-                td Celda 5
+                td 1gr
+                td 1 g
+                td 1000 miligramos
+                td 1000 mg
+
               tr
-                td Doméstico
+                td 1 miligramo
+                td 1 mg
+                td 1000 microgramos
+                td 1000 μg / mcg
+
+              tr
+                <td rowspan="4">Volumen</td> 
+                td 1 litro
+                td 1 l
+                td 1000 mililitros
+                td 1000 ml
+              tr
+                td 1 litro
+                td 1 l
+                td 1000 centímetros cúbicos
+                td 1 cc / cm3
+
+              tr
+                td 1 mililitro
+                td 1 ml
+                td 1 centímetro cúbico
+                td 1 cc / cm3
+
+              tr
+                td 1 mililitro
+                td 1 ml
+                td 1000 microlitros
+                td 1000 μl
+
+              tr
+                <td rowspan="7">Doméstico</td> 
+                td 1 cucharada café
+                td
+                td 2,5 mililitros
+                td 2,5 ml
+              tr
+                td 1 cucharada postre
                 td 
-                td Celda 3
-                td Celda 4
-                td Celda 5
+                td 5 mililitros
+                td 5 ml
+
+              tr
+                td 1 cucharada sopera
+                td 
+                td 10 – 15 mililitros
+                td 10 – 15 ml
+
+              tr
+                td 1 gota
+                td 
+                td 0,05 mililitros
+                td 0,05 ml
+              tr
+                td 1 gota
+                td 
+                td 3 microgotas
+                td 3 μgotas
+              tr
+                td 20 gotas
+                td 
+                td 1 mililitros
+                td 1 ml
+              tr
+                td 60 microgotas
+                td 60 μgotas
+                td 1 mililitros
+                td 1 ml
+
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
@@ -581,7 +644,7 @@
 
           .row
             p Formato ejemplo del contenido de una fórmula magistral.
-            .col-lg-7
+            .col-lg-8
               h4.text-center Componentes fórmula magistral
               .tabla-a
                 table
@@ -611,7 +674,7 @@
                       td Parte acuosa para formar la emulsión.
                       td Regenera, propiedades antiinflamatorias, antibacterianas
 
-            .col-10.col-lg-5
+            .col-10.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/img32.svg', alt='alt')
 
