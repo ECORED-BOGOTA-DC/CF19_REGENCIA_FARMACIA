@@ -76,7 +76,7 @@
       p Tanto los métodos como la infraestructura han tenido cambios significativos, en las siguientes figuras se indica de manera general dicha evolución hacia el perfeccionamiento de los procesos y los controles que se deben realizar:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5   
+      .col-lg-5.mb-4
         .position-relative(@mouseover="indicadorImagenZoom = false")
           Zoom(
             lente="200" 
@@ -85,7 +85,7 @@
           )
           .indicador--hover(v-if="indicadorImagenZoom")
 
-      .col-lg-5
+      .col-lg-5.mb-4
         .position-relative(@mouseover="indicadorImagenZoom = false")
           Zoom(
             lente="200" 
@@ -103,7 +103,7 @@
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='alt')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+      .col-4.col-lg-1
         figure
           img(src='@/assets/curso/temas/tema1/img9.svg', alt='alt')      
 
@@ -178,9 +178,458 @@
     .row.my-lg-5
       p.mt-lg-3 A continuación, ampliaremos la información sobre cada uno de ellos.
 
+    .row.justify-content-center.align-items-center.mb-5  
+      .tarjeta.tarjeta--azul1
+        PasosB.color-secundario.p-4
+          .row(titulo="Etapas")
+            .col-lg-7
+              h4 Etapas
+              p En el esquema se puede observar las etapas generales del proceso, en donde se elabora la preparación magistral a partir de una prescripción médica y finalmente se realiza la intervención técnica dependiendo del nivel de complejidad del servicio farmacéutico o de establecimiento.
 
+              figure.mb-4
+                img(src='@/assets/curso/temas/tema1/img11.svg', alt='alt')  
 
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img12.svg', alt='alt')
 
+          .row(titulo="Objetivo")
+            .col-lg-11
+              h4 Objetivo
+              p En el diagrama se evidencia el objetivo principal de las preparaciones y un ejemplo donde se muestra la preparación de un producto a partir de las necesidades individuales de un paciente.
+
+              p Ejemplo
+
+              figure
+                img(src='@/assets/curso/temas/tema1/img13.svg', alt='alt')
+
+          .row(titulo="Lugares")
+            .col-lg-7
+              h4 Lugares
+              p.mb-5 Los lugares donde se deben hacer las preparaciones magistrales, establecimientos y servicios farmacéuticos de mediana y alta complejidad son:
+
+              .row.mb-3
+                .col-3.col-lg-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img14.svg', alt='alt')
+
+                .col-9.col-lg-10.mt-3
+                  p Establecimientos farmacéuticos.
+
+              .row 
+                .col-3.col-lg-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img15.svg', alt='alt')  
+
+                .col-9.col-lg-10.mt-3
+                  p Servicios farmacéuticos (clínicas de mediana y alta complejidad).            
+
+            .col-lg-5.mt-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img16.svg', alt='alt')
+
+          .row(titulo="Personal")
+            .col-lg-7
+              h4 Personal
+              p El personal autorizado por la normatividad vigente para la realización de las preparaciones magistrales son:
+
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  p #[b Tecnólogo en regencia de farmacia:] Podrá elaborar preparaciones de uso tópico como cremas, polvos, geles, ungüentos, pomadas y orales líquidos no estériles.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  p #[b Químico farmacéutico:] Podrá elaborar  preparaciones estériles, nutriciones parenterales, mezcla de medicamentos oncológicos, adecuación y ajuste de concentraciones de dosis de medicamentos oncológicos y radiofármacos. 
+
+            .col-lg-5.mt-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img17.svg', alt='alt')
+
+          .row(titulo="Campos")
+            .col-lg-7
+              h4 Campos
+              p.mb-4 Es importante identificar los campos de acción de las preparaciones magistrales, con el objetivo de conocer cuál es su alcance.
+
+              p Dentro de su campo de actividad se encuentran las áreas de:
+
+              .row
+                .col-lg-7
+                  ul.lista-ul--color.fa-ul2
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Dermatología.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Formulación cosmética de prescripción.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Pediatría.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Geriatría.]
+
+                .col-lg-5
+                  ul.lista-ul--color.fa-ul2
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Psiquiatría.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Oftalmología.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Atención primaria.]
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | #[b Hospital.]          
+          
+            .col-lg-5.mt-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img18.svg', alt='alt')
+
+          .row(titulo="Ventajas / Desventajas")
+
+            h4 Ventajas / Desventajas
+            p Todo proceso tiene ventajas y desventajas en su ejecución y campo de acción. Las preparaciones magistrales no son ajenas a estos.
+        
+            .col-lg-6.mb-4
+              .tarjeta--blanca2.p-2.p-lg-4
+                .row 
+                  .col-3.col-lg-2.mb-3
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img19.svg', alt='alt')
+                  .col-9.col-lg-10.mt-3
+                    h4 Ventajas
+
+                  ul.lista-ul--color.fa-ul2
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Tratamiento personalizado. 
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Sólo está disponible a ciertas dosis, y se necesita otra dosis distinta.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Se necesita en una forma de administración que no está disponible comercialmente.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Se ha dejado de fabricar por razones comerciales.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Asociación de fármacos no disponibles.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Puede recetarse mayor cantidad del producto.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Producto de estabilidad limitada.
+
+            .col-lg-6.mb-4
+              .tarjeta--blanca2.p-2.p-lg-4
+                .row 
+                  .col-3.col-lg-2.mb-3
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img20.svg', alt='alt')
+                  .col-9.col-lg-10.mt-3
+                    h4 Desventajas
+                  ul.lista-ul--color.fa-ul2
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Productos son extemporáneos. 
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | No es de dispensación inmediata.
+                    li 
+                      i.fas.fa-angle-right.color-vineta2
+                      | Control de calidad no se compara con la industria farmacéutica. 
+
+    separador
+    #t_1_1.titulo-segundo.color-acento-contenido
+       h2 1.1 Formas farmacéuticas de los preparados magistrales tópicos no estériles
+
+    .row.mb-5
+      p Las preparaciones magistrales tópicas no estériles se pueden presentar en diferentes formas:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .tarjeta.tarjeta--morada.p-3.p-lg-5
+        h4.text-center.mb-5 Formas farmacéuticas
+        .row.justify-content-center
+          .col-lg-4.mb-4
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')(style="width:40%")
+
+              .tarjeta.tarjeta--blanca3.p-4
+                h4.text-center.mt-3 Semisólidas
+                ul.lista-ul--color.fa-ul2
+                  li 
+                    i.fas.fa-check
+                    | Crema.
+                  li 
+                    i.fas.fa-check
+                    | Gel.
+                  li 
+                    i.fas.fa-check
+                    | Ungüento.
+                  li 
+                    i.fas.fa-check
+                    | Pasta.
+                  li 
+                    i.fas.fa-check
+                    | Pomadas.
+
+          .col-lg-4.mb-4
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')(style="width:40%")
+
+              .tarjeta.tarjeta--blanca3.p-4
+                h4.text-center.mt-3 Líquidas
+                ul.lista-ul--color.fa-ul2
+                  li 
+                    i.fas.fa-check
+                    | Soluciones orales.
+                  li 
+                    i.fas.fa-check
+                    | Soluciones tópicas (piel).
+
+          .col-lg-4.mb-4
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')(style="width:40%")
+
+              .tarjeta.tarjeta--blanca3.p-4
+                h4.text-center.mt-3 Sólidas
+                ul.lista-ul--color.fa-ul2
+                  li 
+                    i.fas.fa-check
+                    | Polvos.
+
+    .row.mb-5
+      p Observemos algunos ejemplos de las formas farmacéuticas de las preparaciones magistrales:
+
+    .row.justify-content-center.align-items-center
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta--azul2.p-4
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema1/img24.svg' alt='AvatarTop')
+
+          p #[b Indicación:] piel seca.
+          p #[b Forma farmacéutica:] líquida - gotas.
+
+        .tarjeta--azul2.p-4
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema1/img25.svg' alt='AvatarTop')
+
+          p #[b Indicación:] tratamiento de la dermatitis y la soriasis.
+          p #[b Forma farmacéutica:] semisólida - crema.
+
+        .tarjeta--azul2.p-4
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema1/img26.svg' alt='AvatarTop')
+
+          p #[b Indicación:] cicatrización.
+          p #[b Forma farmacéutica:] semisólida - ungüento.
+
+        .tarjeta--azul2.p-4
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema1/img27.svg' alt='AvatarTop')
+
+          p #[b Indicación:] piel seca y comezón.
+          p #[b Forma farmacéutica:] líquida - tónico facial.
+
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido
+       h2 1.2 Unidades básicas de medidas
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-5.col-lg-1.mb-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema1/img28.svg', alt='alt')      
+
+      .col-lg-11.mt-4.mb-lg-5
+        p A medida que ha pasado la historia, se han utilizado distintas unidades y sistemas de medida, pero actualmente dichas normas se han estandarizado gracias a organizaciones reconocidas a nivel internacional. Se conoce que durante la undécima Conferencia Internacional de Pesas y Medidas que tuvo lugar en 1960, fue aprobado el Sistema Internacional de Unidades (SI).
+
+    .tarjeta--morada.p-4.mb-5
+      .row.justify-content-center
+        .col-8.col-lg-4.mb-4
+          figure
+            img(src='@/assets/curso/temas/tema1/img29.svg', alt='alt').img29-tm1 
+
+        .col-lg-8.mt-4
+          p En todo lo relacionado con los nombres y símbolos de las unidades se determinaron algunas normas:
+
+          ul.lista-ul--color.fa-ul2
+            li 
+              i.fas.fa-check
+              | Los nombres de las unidades se deben escribir con minúscula.
+            li 
+              i.fas.fa-check
+              | El símbolo de cada unidad es único.
+            li 
+              i.fas.fa-check
+              | No se debe poner punto final a los símbolos.
+            li 
+              i.fas.fa-check
+              | Los símbolos de las unidades cuyo nombre proviene de un nombre propio son mayúsculas; cuando no es así, son minúsculas.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4.mb-4
+          p Es así como, para el contexto de la atención al cliente de servicios farmacéuticos, las respuesLas formas farmacéuticas sólidas (polvos, comprimidos, etc.) se deben medir en peso y las formas farmacéuticas líquidas en unidades de volumen. Para estas mediciones se debe utilizar el sistema métrico decimal.tas y acciones deben ser claras, veraces y, sobre todo, humanizadas.    
+
+        p Las soluciones como los jarabes, las cuales se administran por vía oral, pueden venir acompañados de cucharas para su dosificación, las cuales pueden llenarse más o menos, no son muy exactas, por eso en algunos casos se prefiere el uso de jeringas para su medición. Si el medicamento no cuenta con la cuchara dosificadora, pueden utilizarse las medidas domésticas que se plantean en la siguiente tabla. Si la dosis viene definida en gotas, el tamaño puede variar dependiendo de la viscosidad de la solución, del cuentagotas, etc. Si con el medicamento no se proporciona ningún cuentagotas o especifica una equivalencia diferente, se asume la equivalencia planteada en la tabla.
+
+      .col-8.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema1/img30.svg', alt='alt')      
+
+    .row.justify-content-center.mb-5
+      .titulo-sexto.color-acento-contenido.mb-3
+        h5 Tabla 1
+        span Unidades de medida y equivalencias. 
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .tabla-a.color-acento-botones 
+          table
+            thead
+              tr
+                th 
+                th Unidad
+                th Abreviatura
+                th Unidad equivalente
+                th Abreviatura
+            tbody
+              tr
+                td Peso
+                td 1 kilogramo
+                td 1 k
+                td 1000 gramos
+                td 1000 g
+              tr
+                td Volumen
+                td 
+                td Celda 3
+                td Celda 4
+                td Celda 5
+              tr
+                td Doméstico
+                td 
+                td Celda 3
+                td Celda 4
+                td Celda 5
+
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+       h2 1.3 Prescripción médica: concepto, interpretación
+
+    .row.mb-5
+      p A continuación, se presenta la información y elementos relacionados con fórmulas de preparaciones magistrales:
+
+    .row.justify-content-center.mb-5
+      .tarjeta.tarjeta--morada.px-5.py-3
+        SlyderA(tipo="b")
+          .row
+            .col-lg-7
+              p De acuerdo con la normatividad colombiana, los formatos utilizados para las fórmulas de las preparaciones magistrales deben contener, por lo menos, los siguientes datos, cuando apliquen:
+
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Nombre de prestador de servicios de salud o profesional de la salud que prescribe, dirección y número telefónico o dirección de correo electrónica.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Lugar y fecha de la prescripción.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Nombre del paciente y documento de identificación.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Número de la historia clínica. 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Tipo de usuario (contributivo, subsidiado o particular).
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Nombre del medicamento expresado en la denominación común internacional (nombre genérico). 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Concentración y forma farmacéutica.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Vía de administración. 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Dosis y frecuencia de administración. 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Período de duración del tratamiento. 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Cantidad total de unidades farmacéuticas requeridas para el tratamiento, en números y letras.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Indicaciones que a su juicio considere el prescriptor. 
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Vigencia de la prescripción.
+                li 
+                  i.fas.fa-angle-right.color-vineta2
+                  | Nombre y firma del prescriptor con su respectivo número de registro profesional.
+
+            .col-10.col-lg-5
+              figure.mt-5
+                img(src='@/assets/curso/temas/tema1/img31.svg', alt='alt')
+
+          .row
+            p Formato ejemplo del contenido de una fórmula magistral.
+            .col-lg-7
+              h4.text-center Componentes fórmula magistral
+              .tabla-a
+                table
+                  tbody
+                    tr
+                      td #[h4 Componentes]
+                      td #[h4 Función de la fórmula]
+                      td #[h4 Acción en la piel]
+                    tr
+                      td #[b Cera de abejas]
+                      td Parte grasosa para formar la emulsión.
+                      td Hidratación
+                    tr
+                      td #[b Alcohol cetílico]
+                      td Espesante y emulsionante.
+                      td Acción emoliente
+                    tr
+                      td #[b Aceite de almendras]
+                      td Parte grasosa para formar la emulsión.
+                      td Humectante
+                    tr
+                      td #[b Bórax]
+                      td Emulsionante (permite la mezcla de grasas y agua).
+                      td Limpia y exfolia
+                    tr
+                      td #[b Agua de rosas]
+                      td Parte acuosa para formar la emulsión.
+                      td Regenera, propiedades antiinflamatorias, antibacterianas
+
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img32.svg', alt='alt')
+
+          .row
+            .col-lg-7
+              p This
+
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img33.svg', alt='alt')
+
+          .row
+            .col-lg-7
+              p This
+
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img34.svg', alt='alt')
 
 
 
