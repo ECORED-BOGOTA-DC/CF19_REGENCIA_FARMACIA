@@ -50,3 +50,67 @@
   color: #7E5EE3 !important
   font-size: 10px
   margin-top: 3px
+
+
+
+
+//// ESTILOS TEMA 1 -------------------
+
+// PASOS B ------
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  border-color: #7E5EE3
+  background-color: #7E5EE3
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+    background-color: #7E5EE3
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #7E5EE3
+
+.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot
+    border-color: #00BCD4
+    background-color: #C3F8FF
+
+// tarjetas ---------------
+
+.tarjeta--morada
+  background-color: #E5DFF9
+
+// background de fondo --------------
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/fondo1.png')
+    background-size: 100% auto  
+    background-repeat: round
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+// tabla -------
+
+td
+  border: 1px solid #e8e8e8
+  padding: 0.75em
+  background-color: #ffffff
+
+// imagenes --------------
+
+.img10-tm1
+  position: relative
+  margin-top: -15%
+  margin-bottom: -25%
+  @media (max-width: 500px)
+    position: relative
+    margin-top: 0%
+    margin-bottom: 0%
