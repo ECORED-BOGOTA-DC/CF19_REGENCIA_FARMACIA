@@ -680,11 +680,7 @@
                     span.texto-negro Fórmula Magistral
                     .indicador--click(v-if="mostrarIndicador")
               
-              ModalA(:abrir-modal.sync="modal1")
-                .row
-                  .col-lg-10
-                    figure.mt-5
-                      img(src='@/assets/curso/temas/tema1/img32-1.svg', alt='alt')(style="width:80%")  
+  
 
             .col-10.col-lg-3
               figure.mt-5
@@ -727,6 +723,15 @@
             .col-10.col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img35.svg', alt='alt')
+
+    .row
+      .col-lg-8
+        ModalA(:abrir-modal.sync="modal1")
+          .row
+            .col-lg-10
+              figure.mt-5
+                img(src='@/assets/curso/temas/tema1/img32-1.svg', alt='alt')(style="width:80%")
+
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido

@@ -55,8 +55,13 @@
   color: #7E5EE3 !important
   font-size: 20px
 
+// color texto
+
 .texto-negro
   color: #12263F
+
+.texto-azul
+  color: #00BCD4
 
 // cajon-color---------------
 
@@ -76,6 +81,15 @@
 .tarjeta--morada2
   background-color: #7E5EE3
   border-radius: 20px
+
+// modal-------
+
+.modal-a__content
+    position: fixed
+    top: 50%
+    left: 50%
+    background-color: #fff
+    width: 70%
 
 
 //// ESTILOS TEMA 1 -------------------
@@ -120,7 +134,6 @@
 .tarjeta--azul2
   background-color: #DCFBFF
   height: 300px
-
 
 // background de fondo --------------
 
@@ -179,38 +192,6 @@ td
   background-color: #C1B2F1
 
 
-// modal -------------
-
-.modal-a__content 
-  position: fixed
-  top: 50%
-  left: 150%
-  background-color: #fff
-  width: 90%
-  max-width: 1300px
-  max-height: 100vh
-  overflow-y: auto
-  z-index: 110001
-  border-radius: 20px
-  transform: translate(-50%, -50%) scale(0)
-  transition: transform 0.3s ease-in-out
-
-.modal-a__fondo 
-  position: fixed
-  background-color: rgba(0, 0, 0, 0.9)
-  top: 0
-  left: 100%
-  bottom: 0
-  right: -150%
-  opacity: 0
-  z-index: 110000
-  transition: opacity 0.3s ease-in-out
-  cursor: pointer
-
-
-
-
-
 //// ESTILOS TEMA 2 -------------------
 
 // tarjetas boton-------
@@ -234,6 +215,17 @@ td
     cursor: pointer
     transition: background-color 0.3s ease-in-out
     height: 580px
+
+.tarjeta--morada4:hover
+  background-color: #E5DFF9
+  height: 300px
+
+.tarjeta--boton3
+    border-radius: 0px
+    background-color: #DCFBFF
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out
+    height: 300px
 
 .tarjeta--azul3
   background-color: #DCFBFF
@@ -311,4 +303,11 @@ td
 .img-infografica__item, .img-infografica-b__item
     width: 6%
 
+// tarjeta numerada------------
 
+.tarjeta-numerada
+  margin-left: 20px
+  height: 350px
+
+.tarjeta-numerada__numero
+  left: -10px

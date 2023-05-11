@@ -483,6 +483,149 @@
 
       p Algunas de las recomendaciones más importantes para el manejo de la documentación son las siguientes:
 
+    .row.mb-5
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-4
+          .tarjeta-numerada__numero
+            .h2 1
+          .row.justify-content-center.align-items-center
+            .col-6
+              figure.mb-4
+                img(src='@/assets/curso/temas/tema2/img39.svg', alt='alt')
+
+          p Registrar los datos inmediatamente después de finalizar la actividad.
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-4
+          .tarjeta-numerada__numero
+            .h2 2
+
+          p Cada vez que se cometa un error a la hora de registrar la información se debe corregir colocando una línea oblicua de tal manera que el error sea visible y colocar la firma autorizada de quien corrige, la fecha, y la información correcta.
+
+          .row.justify-content-center.align-items-center
+            .col-auto
+              figure.mb-4
+                img(src='@/assets/curso/temas/tema2/img39-1.svg', alt='alt')
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-4
+          .tarjeta-numerada__numero
+            .h2 3
+          .row.justify-content-center.align-items-center
+            .col-6
+              figure.mb-4
+                img(src='@/assets/curso/temas/tema2/img39.svg', alt='alt')
+
+          p No se permite la corrección de errores de personas diferentes a quien registró la información original.
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-4
+          .tarjeta-numerada__numero
+            .h2 4
+          .row.justify-content-center.align-items-center
+            .col-6
+              figure.mb-4
+                img(src='@/assets/curso/temas/tema2/img39.svg', alt='alt')
+
+          p Todo espacio en blanco debe ser cerrado con una línea o N/A.
+
+    .row.mb-5
+      .col-auto.col-lg-1
+        figure
+          img(src='@/assets/curso/temas/tema2/img40.svg', alt='alt')
+
+      .col-lg-11
+        p Para un 
+          spam.texto-azul #[b correcto diligenciamiento de la documentación] 
+          |  se deben tener instructivos donde se detallen como hay que registrar la información. A continuación, podrán observar algunos ejemplos de la documentación que se utiliza durante el proceso de elaboración de las preparaciones magistrales.
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton3.tarjeta--morada4.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema2/img41.svg', alt='Texto que describa la imagen')
+
+          .row
+            b.text-center.mb-4 Especificaciones de las materias primas
+
+          .row.justify-content-center.mt-3
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                span.texto-negro Ver formato
+                .indicador--click(v-if="mostrarIndicador")
+          
+          ModalA(:abrir-modal.sync="modal1")
+            .row.justify-content-center.align-items-center
+              figure
+                img(src='@/assets/curso/temas/tema2/img45.svg', alt='alt')(style="width:80%")  
+
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton3.tarjeta--morada4.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema2/img42.svg', alt='Texto que describa la imagen')
+
+          .row
+            b.text-center.mb-5 Registro materias primas
+
+          .row.justify-content-center.mt-3
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                span.texto-negro Ver formato
+                .indicador--click(v-if="mostrarIndicador")
+          
+          ModalA(:abrir-modal.sync="modal2")
+            .row.justify-content-center.align-items-center
+              figure
+                img(src='@/assets/curso/temas/tema2/img46.svg', alt='alt')(style="width:80%")  
+
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton3.tarjeta--morada4.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema2/img43.svg', alt='Texto que describa la imagen')
+
+          .row
+            b.text-center Documento registro del material de acondicionamiento
+
+          .row.justify-content-center.mt-3
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                span.texto-negro Ver formato
+                .indicador--click(v-if="mostrarIndicador")
+          
+          ModalA(:abrir-modal.sync="modal3")
+            .row.justify-content-center.align-items-center
+              figure
+                img(src='@/assets/curso/temas/tema2/img47.svg', alt='alt')(style="width:80%")
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton3.tarjeta--morada4.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema2/img44.svg', alt='Texto que describa la imagen')
+          .row
+            b.text-center.mb-4 Registro fórmula farmacéutica
+
+          .row.justify-content-center.mt-3
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                span.texto-negro Ver formato
+                .indicador--click(v-if="mostrarIndicador")
+          
+          ModalA(:abrir-modal.sync="modal4")
+            .row.justify-content-center.align-items-center
+              figure
+                img(src='@/assets/curso/temas/tema2/img48.svg', alt='alt')(style="width:80%")  
+
 
 
 
@@ -494,7 +637,10 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
   }),
   mounted() {
     this.$nextTick(() => {
