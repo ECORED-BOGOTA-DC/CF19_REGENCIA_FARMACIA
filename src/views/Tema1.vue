@@ -644,7 +644,7 @@
 
           .row
             p Formato ejemplo del contenido de una fórmula magistral.
-            .col-lg-8
+            .col-lg-9
               h4.text-center Componentes fórmula magistral
               .tabla-a
                 table
@@ -674,13 +674,44 @@
                       td Parte acuosa para formar la emulsión.
                       td Regenera, propiedades antiinflamatorias, antibacterianas
 
-            .col-10.col-lg-4
-              figure
+              .row.mt-3
+                .col-auto
+                  a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                    span.texto-negro Fórmula Magistral
+                    .indicador--click(v-if="mostrarIndicador")
+              
+              ModalA(:abrir-modal.sync="modal1")
+                .row
+                  .col-lg-10
+                    figure.mt-5
+                      img(src='@/assets/curso/temas/tema1/img32-1.svg', alt='alt')(style="width:80%")  
+
+            .col-10.col-lg-3
+              figure.mt-5
                 img(src='@/assets/curso/temas/tema1/img32.svg', alt='alt')
+              
 
           .row
             .col-lg-7
-              p This
+              p En el ejemplo previo, el médico definió que la cantidad a preparar es de 100g, por lo que el químico farmacéutico o el regente de farmacia deberán calcular los porcentajes basados en esta cantidad de la siguiente forma:
+
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.fas.fa-check
+                  | #[b Cera de abejas:]   21.1 %, para 100 g de producto, se debe pesar 21.1 gramos.
+                li 
+                  i.fas.fa-check
+                  | #[b Alcohol cetílico:]   12.6 %, pesar 12.5 gramos.
+                li 
+                  i.fas.fa-check
+                  | #[b Aceite de almendras:]   46.0 %, pesa 46 gramos.
+                li 
+                  i.fas.fa-check
+                  | #[b Bórax:]   0.5 %, pesar 0,5 gramos.
+
+              p Hasta aquí, la suma de los componentes es de 80.1 gramos. Al final dice que el agua de rosas es C.S.P (Cantidad suficiente para), con esta materia prima se deben completar los 100 gramos, es decir restar a los 100g los 80.1g
+
+              p La cantidad de agua de rosas sería de 19.9 gramos.
 
             .col-10.col-lg-5
               figure
@@ -688,13 +719,76 @@
 
           .row
             .col-lg-7
-              p This
+              p La cantidad de agua de rosas sería de 19.9 gramos.
 
-            .col-10.col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img34.svg', alt='alt')
 
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img35.svg', alt='alt')
 
+    separador
+    #t_1_4.titulo-segundo.color-acento-contenido
+       h2 1.4 Concentraciones
+
+    .row.justify-content-center-mb-5
+      p En las preparaciones magistrales, las concentraciones de los productos farmacéuticos se pueden expresar de dependiendo de las formas farmacéuticas, como se presenta a continuación:
+
+    .row.justify-content-center.mb-5
+      TabsB.color-primario
+        .py-4.py-md-5(titulo="Masa/Volumen" :icono="require('@/assets/curso/temas/tema1/img36.svg')")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h4 Masa/Volumen
+              p Es una forma fácil de expresar una concentración.
+              p Cuando se dice que un medicamento tiene una concentración de 5 mg/ml, quiere decir que hay 5 mg de fármaco (soluto) por cada ml de volumen de la disolución. 
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img37.svg', alt='Texto que describa la imagen')
+
+        .py-4.py-md-5(titulo="Porcentaje (%)" :icono="require('@/assets/curso/temas/tema1/img38.svg')")
+          .row
+            .col-md-6
+              h4 Porcentaje (%)
+              p Es un indicador de las cantidades de soluto (fármaco) que hay en 100 unidades de la disolución. 
+              p Se expresa de diferentes maneras:
+
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | #[b Porcentaje peso en peso:] g de soluto/100 g de disolución.
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | #[b Porcentaje peso en volumen:] g de soluto/100 ml de disolución.  
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | #[b Porcentaje volumen en volumen:] ml de soluto/100 ml de disolución. Siempre que no se especifique, se sobreentiende que se trata de concentración de peso en volumen (g/100 ml).
+
+            .col-md-6.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img39.svg', alt='Texto que describa la imagen')
+
+
+        .py-4.py-md-5(titulo="Razón" :icono="require('@/assets/curso/temas/tema1/img40.svg')")
+          .row
+            .col-md-6
+              h4 Razón
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | Determina las relaciones existentes entre las cantidades de soluto que hay en una cantidad determinada de disolución.
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | Se expresa de la siguiente forma (5:10) o como una fracción (5/10). En caso de expresarlo como fracción, siempre se especifican las unidades de medida utilizadas.
+                li 
+                  i.fas.fa-circle.color-vineta1
+                  | Cuando se expresa como razón, si no se especifican las unidades, se sobreentiende que se refiere a g de soluto por ml de volumen. 
+            
+            .col-md-6.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img41.svg', alt='Texto que describa la imagen')
 
 
 
@@ -706,7 +800,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {

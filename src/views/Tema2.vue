@@ -5,7 +5,488 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Buenas prácticas
+
+    .row.justify-content-center.align-items-center.mb-5
+
+      .col-8.col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema2/img1.svg', alt='alt')
+
+      .col-lg-8
+        p Es el conjunto de acciones coherentes que han demostrado ser eficaces y eficientes en algún periodo de tiempo en un contexto determinado y de las cuales se esperan resultados sostenibles en el tiempo.
+
+        p La estandarización de las buenas prácticas en un factor importante para garantizar su éxito.
+
+        .cajon.color-acento-contenido.p-4.mb-4
+          p En el marco de las preparaciones magistrales, se habla de las Buenas Prácticas de Elaboración. (B.P.E.), mediante las cuales se garantizará que el producto elaborado cumpla con todos los requisitos que estas exigen y que se entregará un preparado que cumpla con parámetros de calidad y satisfaga las necesidades del usuario.   
+
+        p Las BPE buscan, que en todo momento se tenga la posibilidad de revisar cada etapa del proceso, para poder identificar errores, y las causas que lo generaron para así poder corregirlo.
+
+      p Durante el monitoreo también se pueden evidenciar oportunidades de mejora que permitan optimizar cada uno de los procesos. Un monitoreo adecuado se logra si hay un sistema de registro de información ordenado y tomado a tiempo.
+
+      p Los requisitos generales de las B.P.E. abarcan varios aspectos importantes y cada uno de ellos tienen unos requisitos específicos que cumplir. Dichos aspectos son los siguientes: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        figure
+          img(src='@/assets/curso/temas/tema2/img2.svg', alt='alt')      
+
+    .row.mb-5
+      p Las buenas prácticas de elaboración se rigen por medio del cumplimiento de los siguientes ejes:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.tarjeta--morada2.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img3.svg', alt='Texto que describa la imagen')
+
+          h3.text-center.mt-4 Instalaciones
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.tarjeta--morada2.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img4.svg', alt='Texto que describa la imagen')
+
+          h3.text-center.mt-4 Personal
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.tarjeta--morada2.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img5.svg', alt='Texto que describa la imagen')
+
+          h3.text-center.mt-4 Equipos y utensilios
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.tarjeta--morada2.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
+
+          h3.text-center.mt-4 Materias primas
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.tarjeta--morada2.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen')
+
+          h3.text-center.mt-4 Documentación
+
+    .row.justify-content-center.align-items-center
+      .tarjeta.color-secundario.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-2
+            img(src="@/assets/curso/temas/tema2/img8.svg").img8-tm2
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.texto-blanco.mt-3 Con el propósito de tener claro cuáles son las normativas de las buenas prácticas de elaboración, se invita al aprendiz a consultar el capítulo III - numeral 2 de la Resolución 1403 de 2007 de la sección de material complementario.
+              .col-sm-auto
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  span.texto-negro Descargar
+                  i.fas.fa-file-download.texto-negro
+
+    .row.justify-content-center.align-items-center
+      .tarjeta.color-secundario.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-2
+            img(src="@/assets/curso/temas/tema2/img8.svg").img8-tm2
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.texto-blanco.mt-3 Es importante conocer cuáles son los instrumentos de verificación para las B.P.E., por ello se invita al aprendiz a consultarlos en la Resolución 444 de 2008 de la sección de material complementario
+              .col-sm-auto
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  span.texto-negro Descargar
+                  i.fas.fa-file-download.texto-negro
+
+    .row.mb-4
+      p A continuación, se podrán conocer los requisitos de las B.P.E 
+
+    .bg2
+      .row
+        h4 Requisitos de las instalaciones
+
+    .bg3.mb-5
+      .row.mb-5
+        p Las instalaciones del establecimiento o servicio farmacéutico donde se vayan a realizar las preparaciones magistrales deben cumplir con los siguientes requisitos:z
+
+      .row.justify-content-center.align-items-center.mb-5  
+        .tarjeta.tarjeta--morada.p-4
+          PasosB.color-secundario.p-5
+            .row(titulo="Requisitos instalaciones")
+              .col-md-7.mb-4.mb-md-0
+                h4 Requisitos instalaciones
+                p El área destinada a la preparación de fórmulas magistrales debe disponer de:
+
+                .row.justify-content-center 
+                  .col-5.col-lg-2
+                    figure.mt-4
+                      img(src='@/assets/curso/temas/tema2/img9.svg', alt='alt')
+
+                  .col-lg-10
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span A
+                        | Una oficina.    
+                                                 
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span B
+                        | Área independiente de dispensación y elaboración.    
+                                               
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span C
+                        | Bodega independiente.                            
+            
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span D
+                        | Área independiente de vestier e instalaciones sanitarias.   
+
+                    .row 
+                      .col-auto 
+                        .tarjeta--morada2.px-3.py-2
+                          p.texto-blanco.mb-0 Laboratorio                    
+                      
+                      .col-auto 
+                        .tarjeta--morada2.px-3.py-2
+                          p.texto-blanco.mb-0 Secuencia lógica   
+
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img10.svg', alt='alt')
+
+            .row(titulo="Funcionamiento del proceso")
+                h4 Funcionamiento del proceso
+                p Para un correcto funcionamiento del proceso, las instalaciones deben garantizar los siguiente:
+                
+                figure.mt-5
+                  img(src='@/assets/curso/temas/tema2/img11.svg', alt='alt')
+
+            .row(titulo="Control temperatura")
+              .col-md-7.mb-4.mb-md-0
+                h4 Control temperatura
+                p Organización de las instalaciones con el objetivo de garantizar el correcto funcionamiento de los procesos.
+                p Según los requerimientos específicos de cada producto, se debe tener la temperatura controlada (aire acondicionado) para evitar deterioro de las materias primas, producto a granel y terminado.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img12.svg', alt='alt')
+
+            .row(titulo="Control humedad")
+              .col-md-7.mb-4.mb-md-0
+                h4 Control humedad
+                p Según los requerimientos específicos de cada producto, se debe tener la humedad controlada para evitar deterioro de las materias primas, producto a granel y terminado.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img13.svg', alt='alt')
+
+            .row(titulo="Pisos y paredes ")
+              .col-md-7.mb-4.mb-md-0
+                h4 Pisos y paredes 
+                p Todas las superficies (Techos, paredes y pisos), deben ser lisas y sin grietas para facilitar la limpieza, desinfección y evitar la acumulación de suciedades. Es importante contar con protección frente a insectos y roedores.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img14.svg', alt='alt')
+
+            .row(titulo="Prevención de riesgos")
+              .col-md-7.mb-4.mb-md-0
+                h4 Prevención de riesgos 
+                p Contar con elementos para hacer frente a posibles accidentes, teniendo en cuenta que se manejan productos químicos.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img15.svg', alt='alt')
+
+            .row(titulo="Iluminación adecuada")
+              .col-md-7.mb-4.mb-md-0
+                h4 Iluminación adecuada
+                p Una iluminación adecuada que permita la correcta visualización de las materias primas, documentos y el desplazamiento por la áreas.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img16.svg', alt='alt')
+
+            .row(titulo="Separación áreas")
+              .col-md-7.mb-4.mb-md-0
+                h4 Separación áreas
+                p Con el objetivo de evitar la contaminación cruzada y la confusión, las áreas deben estar separadas (Área administrativa, pesaje, recepción, almacenamiento, preparación, etc.).
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img17.svg', alt='alt')
+            
+            .row(titulo="Mesa de trabajo")
+              .col-md-7.mb-4.mb-md-0
+                h4 Mesa de trabajo
+                p El material debe ser resistente, de fácil limpieza, amplio, cómodo, ya que en este lugar se realizan las preparaciones.
+            
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/temas/tema2/img18.svg', alt='alt')
+
+
+      .bg2
+        .row
+          h4 Requisitos del personal
+
+      .row.mb-5
+        p Los requisitos para el personal involucrado en las preparaciones magistrales son:
+
+      .row.justify-content-center.align-items-center
+        ImagenInfografica
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen')
+
+          .tarjeta.tarjeta--blanca.p-3(x="17%" y="22%" numero="")
+            h3.text-center Calificación del personal
+            figure.mb-4
+              img(src='@/assets/curso/temas/tema2/img20.svg')
+
+            ul.lista-ul--color.fa-ul2
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Todo el personal debe tener la calificación, competencia y experiencia.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Seleccionar las personas que cumplan con el perfil.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Capacitar muy bien al personal y hacer acompañamiento luego de esto.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Recapacitar constantemente.
+
+          .tarjeta.tarjeta--blanca.p-3(x="52%" y="17%" numero="")
+            h3.text-center Capacitación
+            figure.mb-4
+              img(src='@/assets/curso/temas/tema2/img21.svg')
+
+            ul.lista-ul--color.fa-ul2
+              li 
+                i.fas.fa-circle.color-vineta1
+                | El proceso de capacitación inicia en el momento de la inducción al personal nuevo, cada vez que haya cambios en el listado básico de medicamentos, políticas de la empresa o temas de interés.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Todo el material utilizado en las capacitaciones debe ser archivado (documentos, diapositivas, etc.).
+
+          .tarjeta.tarjeta--blanca.p-3(x="77%" y="33%" numero="")
+            h3.text-center Higiene y seguridad personal
+            figure.mb-4
+              img(src='@/assets/curso/temas/tema2/img22.svg')
+
+            ul.lista-ul--color.fa-ul2
+              li 
+                i.fas.fa-circle.color-vineta1
+                | El personal debe ingresar sin maquillaje, joyas o perfumes.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Las uñas deben estar cortas para evitar la contaminación.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Usar los lockers correctamente.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Usar correctamente el uniforme y los EPP durante el ingreso y la permanencia dentro de las instalaciones.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | Si presenta enfermedades infectocontagiosas no hará parte del proceso productivo.
+              li 
+                i.fas.fa-circle.color-vineta1
+                | No manipular materias primas ni equipos que no conozca.
+
+    .bg2.mb-4
+      .row
+        h4 Requisitos de los materiales y utensilios
+
+    .row.mb-5
+      p Los requisitos para los materiales y utensilios involucrados en las preparaciones magistrales son: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton2.tarjeta--morada3.p-4
+          .row.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img23.svg', alt='Texto que describa la imagen')
+
+          p Deben ser de tamaño adecuado a los fines de uso al que está destinado. Ha de estar sometido a una #[b revisión periódica y adecuada calibración.] Se verificará, cada vez, previo al inicio de un proceso de elaboración.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton2.tarjeta--morada3.p-4
+          .row.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img24.svg', alt='Texto que describa la imagen')
+
+          p Deben ser elaborados en materiales que #[b se puedan lavar, sanitizar y esterilizar fácilmente.] Se tendrá presente que ninguna de las superficies que estarán en contacto con el producto, puedan afectar la calidad de este o de sus componentes.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton2.tarjeta--morada3.p-4
+          .row.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img25.svg', alt='Texto que describa la imagen')
+
+          p Verificar que ningún #[b elemento que se utilice para el adecuado funcionamiento o mantención del equipo], instrumento o accesorio pueda reaccionar o contaminar el producto o sus componentes.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton2.tarjeta--morada3.p-4
+          .row.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/temas/tema2/img26.svg', alt='Texto que describa la imagen')
+
+          p El instrumental y otros accesorios que intervienen en la elaboración y el control de calidad deben mantenerse limpios y en buenas condiciones de funcionamiento. Tanto las #[b operaciones de limpieza como su mantenimiento deben estar caracterizadas por su efectividad], se realizará según procedimientos que se especificarán por escrito. Se dispondrá que la limpieza se realice inmediatamente después del uso.
+
+
+    .row.mb-5
+      p Algunos de los materiales necesarios para el proceso de producción, son
+
+    .row.justify-content-center.align-items-center
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img27.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Microondas y placas de inducción
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img28.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Emulsionador
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img29.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Mesas para balanza antivibración
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img30.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Campana de extracción
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img31.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Agua desionizada
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img32.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Balanza
+
+        .tarjeta--azul3.p-4
+          .row.justify-content-center.mb-3
+            .col-auto
+              img(src='@/assets/curso/temas/tema2/img33.svg' alt='AvatarTop')
+
+            b.text-center.mt-4 Programa informático
+
+    .bg4
+      .bg2.mb-4
+        .row
+          h4 Requisitos de los materiales y utensilios    
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10.col-lg-4
+          figure
+            img(src='@/assets/curso/temas/tema2/img34.svg')
+
+        .col-lg-8.mt-4
+          p Uno de los componentes más importantes en el proceso, son las materias primas que se utilizan para la elaboración de las preparaciones magistrales, porque de estas depende la calidad del preparado, el cumplimiento con los parámetros de calidad y la eficacia del tratamiento.
+
+          p Se debe tener mucho cuidado con la procedencia de las materias primas y material de acondicionamiento, estos deben cumplir con las especificaciones definidas por el establecimiento o servicio farmacéutico.
+
+        p.mt-3 Toda materia prima, envase y empaque que ingrese, debe pasar por las siguientes etapas:
+
+      .row.mb-5
+        .col-lg-4
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema2/img35.svg')
+            .tarjeta.tarjeta--morada
+              .p-2.py-3
+                p.mb-0 Recepción y cuarentena.
+
+        .col-lg-4
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema2/img36.svg')
+            .tarjeta.tarjeta--morada
+              .p-2.py-3
+                p.mb-0 Aprobación y rechazo.
+
+        .col-lg-4
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema2/img37.svg')
+            .tarjeta.tarjeta--morada
+              .p-2.py-3
+                p.mb-0 Identificación y almacenamiento.
+
+      .row.mb-5
+        p A continuación, se amplía la explicación de cada una de las etapas.
+
+    .row.mb-5
+      .titulo-sexto.color-acento-contenido.mb-3
+        h5 Tabla 2
+        span Etapas materias primas y material de acondicionamiento.       
+
+    .row.my-5
+      h1.text-center falta tabla
+
+    .bg2.mb-4
+      .row
+        h4 Requisitos de la documentación
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-8.col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema2/img38.svg', alt='alt')
+
+      .col-lg-8
+        p El éxito de todo proceso depende de la correcta ejecución de los colaboradores que intervienen en él, es por esto que cobra mucha importancia el proceso documental, por medio del cual todas las actividades son documentadas con el objetivo de que todo el personal ejecute las tareas de la misma forma; los datos y resultados son registrados para dejar evidencia de su realización.
+
+        p La documentación es una parte esencial de la Garantía de la Calidad y se relaciona con todos los aspectos de la B.P.E.
+
+        .cajon.color-acento-contenido.px-4.py-2.mb-4
+          h5 La documentación es la base de las B.P.E 
+          p.mb-0 Se establecen documentos como manuales, procedimientos, instructivos, formatos, previamente revisados y aprobados con el fin de garantizar que las operaciones de fabricación de fórmulas magistrales se llevaron a cabo de manera adecuada, permitiendo así la trazabilidad de la información y facilitando investigaciones en caso de requerirlas.
+
+      p Algunas de las recomendaciones más importantes para el manejo de la documentación son las siguientes:
+
+
+
+
+
 
 </template>
 

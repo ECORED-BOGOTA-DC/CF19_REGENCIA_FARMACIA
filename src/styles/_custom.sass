@@ -55,6 +55,27 @@
   color: #7E5EE3 !important
   font-size: 20px
 
+.texto-negro
+  color: #12263F
+
+// cajon-color---------------
+
+.cajon.color-acento-contenido
+    background-color: #DCFBFF
+
+// color texto -----
+
+.texto-negro
+  color: #12263F !important
+
+// tarjetas ---------------
+
+.tarjeta--morada
+  background-color: #E5DFF9
+
+.tarjeta--morada2
+  background-color: #7E5EE3
+  border-radius: 20px
 
 
 //// ESTILOS TEMA 1 -------------------
@@ -100,6 +121,7 @@
   background-color: #DCFBFF
   height: 300px
 
+
 // background de fondo --------------
 
 .bg1
@@ -143,11 +165,150 @@ td
   margin-top: -20%
   margin-bottom: -15%
   @media (max-width: 500px)
-    position: relative
     margin-top: 0%
     margin-bottom: 0%
 
-// cajon-color---------------
 
-.cajon.color-acento-contenido
+// slyder-a -------
+
+.slyder-a__bullets__item--active
+  background-color: #7E5EE3 !important
+  border-color: #7E5EE3
+
+.slyder-a__bullets__item 
+  background-color: #C1B2F1
+
+
+// modal -------------
+
+.modal-a__content 
+  position: fixed
+  top: 50%
+  left: 150%
+  background-color: #fff
+  width: 90%
+  max-width: 1300px
+  max-height: 100vh
+  overflow-y: auto
+  z-index: 110001
+  border-radius: 20px
+  transform: translate(-50%, -50%) scale(0)
+  transition: transform 0.3s ease-in-out
+
+.modal-a__fondo 
+  position: fixed
+  background-color: rgba(0, 0, 0, 0.9)
+  top: 0
+  left: 100%
+  bottom: 0
+  right: -150%
+  opacity: 0
+  z-index: 110000
+  transition: opacity 0.3s ease-in-out
+  cursor: pointer
+
+
+
+
+
+//// ESTILOS TEMA 2 -------------------
+
+// tarjetas boton-------
+
+.tarjeta--boton
+  border-radius: 0px
+  background-color: #DCFBFF
+  cursor: pointer
+  transition: background-color 0.3s ease-in-out
+
+.tarjeta--morada2:hover
+  background-color: #E5DFF9
+
+.tarjeta--morada3:hover
+  background-color: #E5DFF9
+  height: 580px
+
+.tarjeta--boton2
+    border-radius: 0px
     background-color: #DCFBFF
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out
+    height: 580px
+
+.tarjeta--azul3
+  background-color: #DCFBFF
+  height: 350px
+
+// imagenes ------------
+
+.img8-tm2
+  position: relative
+  width: 65%
+  left: 60px
+  @media (max-width: 500px)
+    width: 100%
+    left: 0px
+
+// background de fondo --------------
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -15px
+    margin-top: -10px
+    width: calc( 100% + -690px )
+    height: 110%       
+    background-image: url('../assets/curso/temas/tema2/fondo1.png')
+    background-size: 100% auto  
+    background-repeat: round
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+.bg3
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema2/fondo2.png')
+    background-size: 100% auto  
+    background-repeat: round
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+.bg4
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema2/fondo3.png')
+    background-size: 100% auto  
+    background-repeat: round
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+
+// punto caliente -------
+
+.img-infografica__item, .img-infografica-b__item
+    width: 6%
+
+
