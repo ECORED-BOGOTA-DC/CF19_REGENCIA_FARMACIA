@@ -455,13 +455,39 @@
       .row.mb-5
         p A continuación, se amplía la explicación de cada una de las etapas.
 
-    .row.mb-5
+    .row.mb-1
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 2
-        span Etapas materias primas y material de acondicionamiento.       
+        span Etapas materias primas y material de acondicionamiento.         
 
-    .row.my-5
-      h1.text-center falta tabla
+    .row.justify-content-center.align-items-center 
+      .col-10
+        .tabla-a.color-secundario.mb-5
+          table
+            thead
+              tr
+                <th style="background-color: #E5DFF9 !important">Materias primas - bases</th>
+                <th style="background-color: #E5DFF9 !important">Material de envase y/o acondicionamiento</th>
+
+            tbody
+              tr.text-center
+                <td colspan="2" style="background-color: #DCFBFF !important"><b>Recepción y cuarentena</b></td>
+
+              tr
+                <td colspan="2"> En la etapa de recepción se debe verificar la integridad, aspecto y etiquetado de los envases. Como etapa siguiente, deberán registrarse y poner en cuarentena en espacio determinado para ello, hasta su aprobación o rechazo. Este lugar está separado, delimitado y señalizado por este fin.</td>
+              tr.text-center
+                <td colspan="2" style="background-color: #DCFBFF !important"><b>Aprobación o rechazo</b></td>
+
+              tr
+                td En esta etapa se envía una muestra laboratorio externo contratado quien analiza las muestras de acuerdo con especificaciones internas o según USP, y emite el certificado, con el cual se aprueba o rechazan las materias primas y/o bases. Y aseguramiento de calidad emite los rótulos de aprobado o rechazo.
+
+                td Aseguramiento de calidad realiza el análisis de los materiales de envase y/o acondicionamiento, y emite los rótulos de aprobado o rechazo.
+              tr.text-center
+                <td colspan="2" style="background-color: #DCFBFF !important"><b>Identificación y almacenamiento</b></td>
+              tr
+                <td colspan="2"> Cada una de las materias primas, bases o material de envase y acondicionamiento deben estar identificados y ubicados de acuerdo con su Estado (cuarentena, aprobado), y ubicados en su respectiva bodega de acuerdo con el direccionamiento que el jefe de laboratorio ordene.</td>
+              
+
 
     .bg2.mb-4
       .row
