@@ -231,6 +231,8 @@ td
   background-color: #DCFBFF
   height: 350px
 
+
+
 // imagenes ------------
 
 .img8-tm2
@@ -240,6 +242,7 @@ td
   @media (max-width: 500px)
     width: 100%
     left: 0px
+
 
 // background de fondo --------------
 
@@ -301,7 +304,7 @@ td
 // punto caliente -------
 
 .img-infografica__item, .img-infografica-b__item
-    width: 6%
+    width: 4%
 
 // tarjeta numerada------------
 
@@ -311,3 +314,110 @@ td
 
 .tarjeta-numerada__numero
   left: -10px
+
+
+
+
+
+/// ESTILOS TEMA 3 ----------------
+
+// tarjetas -------
+
+.tarjeta--azul4
+  background-color: #DCFBFF
+  border-bottom-right-radius: 200px
+
+.tarjeta.color-secundario--borde
+  color: #12263F
+  border: solid 3px #7E5EE3
+  background-color: #DCFBFF
+  border-radius: 0px
+  height: 280px
+
+// tarjeta numerada ------
+
+.tarjeta-numerada2
+  border: solid 3px
+  border-radius: 20px
+  position: relative
+  margin-left: 20px
+  height: 420px
+
+.tarjeta-numerada2.color-acento-contenido
+  border-color: #00BCD4
+
+.tarjeta-numerada2.color-acento-contenido .tarjeta-numerada__numero
+  background-color: #00BCD4
+
+.tarjeta-numerada2.color-secundario
+  border-color: #7E5EE3
+
+.tarjeta-numerada2.color-secundario .tarjeta-numerada__numero
+  background-color: #7E5EE3
+
+// imagenes --------
+
+.img2-tm3
+  position: relative
+  max-width: 500%
+  width: 450%
+  right: 260%
+  @media (max-width: 500px)
+    width: 100%
+    right: 0%
+
+.img3-tm3
+  position: relative
+  max-width: 150%
+  width: 110%
+  margin-top: -30%
+  margin-bottom: -20%
+  left: -5%
+  @media (max-width: 500px)
+    width: 100%
+    margin-top: 0%
+    margin-bottom: 0%
+    left: 0%
+
+.img13-tm3
+  position: relative
+  margin-top: -20%
+  margin-bottom: -20%
+  @media (max-width: 500px)
+    margin-top: 0%
+    margin-bottom: 0%
+
+/// ESTILOS TEMA 4 -------------------
+
+.img2-tm4
+  position: relative
+  margin-bottom: -30%
+  margin-top: -57%
+  max-width: 200%
+  width: 135%
+  right: 19%
+  @media (max-width: 500px)
+    margin-bottom: 0%
+    margin-top: 0%
+    width: 100%
+    right: 0%
+
+// background de fondo --------------
+
+.bg5
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -40px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema4/fondo1.png')
+    background-size: 100% auto  
+    background-repeat: round
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space

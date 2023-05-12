@@ -363,49 +363,49 @@
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img27.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Microondas y placas de inducción
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img28.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Emulsionador
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img29.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Mesas para balanza antivibración
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img30.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Campana de extracción
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img31.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Agua desionizada
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img32.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Balanza
 
         .tarjeta--azul3.p-4
           .row.justify-content-center.mb-3
-            .col-auto
+            .col-11
               img(src='@/assets/curso/temas/tema2/img33.svg' alt='AvatarTop')
 
             b.text-center.mt-4 Programa informático
