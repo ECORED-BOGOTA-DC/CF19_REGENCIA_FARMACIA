@@ -92,7 +92,7 @@
               .col.mb-3.mb-sm-0
                 p.texto-blanco.mt-3 Con el propósito de tener claro cuáles son las normativas de las buenas prácticas de elaboración, se invita al aprendiz a consultar el capítulo III - numeral 2 de la Resolución 1403 de 2007 de la sección de material complementario.
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_CF019_Resolución_1403_de_2007.pdf')" target="_blank")
                   span.texto-negro Descargar
                   i.fas.fa-file-download.texto-negro
 
@@ -106,7 +106,7 @@
               .col.mb-3.mb-sm-0
                 p.texto-blanco.mt-3 Es importante conocer cuáles son los instrumentos de verificación para las B.P.E., por ello se invita al aprendiz a consultarlos en la Resolución 444 de 2008 de la sección de material complementario
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_CF019_Resolución_444_de_2008.pdf')" target="_blank")
                   span.texto-negro Descargar
                   i.fas.fa-file-download.texto-negro
 
@@ -157,12 +157,12 @@
                         | Área independiente de vestier e instalaciones sanitarias.   
 
                     .row 
-                      .col-auto 
-                        .tarjeta--morada2.px-3.py-2
+                      .col-auto.mb-3
+                        .tarjeta.color-secundario.px-3.py-2
                           p.texto-blanco.mb-0 Laboratorio                    
                       
-                      .col-auto 
-                        .tarjeta--morada2.px-3.py-2
+                      .col-auto.mb-3
+                        .tarjeta.color-secundario.px-3.py-2
                           p.texto-blanco.mb-0 Secuencia lógica   
 
               .col-md-5
@@ -461,7 +461,7 @@
         span Etapas materias primas y material de acondicionamiento.         
 
     .row.justify-content-center.align-items-center 
-      .col-10
+      .col-lg-10
         .tabla-a.color-secundario.mb-5
           table
             thead

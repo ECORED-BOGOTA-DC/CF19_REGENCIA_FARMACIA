@@ -30,6 +30,8 @@
   width: 450px !important
   padding-bottom: 0rem !important
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
 
 // ESTILOS GLOBALES -----------
 
@@ -262,7 +264,8 @@ td
     background-repeat: round
     background-position: center top 
     @media (max-width: 500px)
-      background-repeat: space
+      background-repeat: no-repeat
+      width: calc( 100% + -60px)
 
 .bg3
   position: relative
@@ -342,6 +345,8 @@ td
   position: relative
   margin-left: 20px
   height: 420px
+  @media (max-width: 500px)
+    height: auto
 
 .tarjeta-numerada2.color-acento-contenido
   border-color: #00BCD4

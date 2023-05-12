@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4
-        figure
+        figure.mb-4
           img(src='@/assets/curso/temas/tema4/img1.svg', alt='alt')
 
       .col-lg-8
@@ -22,13 +22,13 @@
 
     .row.mb-5
       .cajon.color-acento-contenido.p-4
-        .row
+        .row.justify-content-center
           .col-lg-10
             p La Farmacopea se convierte en una herramienta básica para garantizar la calidad de los medicamentos y para el fortalecimiento del mercado farmacéutico. Cada país es autónomo para establecer su(s) farmacopea(s) oficial(es) y las especificaciones incluidas en ella(s).
 
             p En Colombia se ha tomado como referencia la farmacopea norteamericana.
 
-          .col-lg-2
+          .col-6.col-lg-2
             figure
               img(src='@/assets/curso/temas/tema4/img2.svg', alt='alt').img2-tm4
 

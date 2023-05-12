@@ -694,16 +694,16 @@
               ul.lista-ul--color.fa-ul2
                 li 
                   i.fas.fa-check
-                  | #[b Cera de abejas:]   21.1 %, para 100 g de producto, se debe pesar 21.1 gramos.
+                  p #[b Cera de abejas:]   21.1 %, para 100 g de producto, se debe pesar 21.1 gramos.
                 li 
                   i.fas.fa-check
-                  | #[b Alcohol cetílico:]   12.6 %, pesar 12.5 gramos.
+                  p #[b Alcohol cetílico:]   12.6 %, pesar 12.5 gramos.
                 li 
                   i.fas.fa-check
-                  | #[b Aceite de almendras:]   46.0 %, pesa 46 gramos.
+                  p #[b Aceite de almendras:]   46.0 %, pesa 46 gramos.
                 li 
                   i.fas.fa-check
-                  | #[b Bórax:]   0.5 %, pesar 0,5 gramos.
+                  p #[b Bórax:]   0.5 %, pesar 0,5 gramos.
 
               p Hasta aquí, la suma de los componentes es de 80.1 gramos. Al final dice que el agua de rosas es C.S.P (Cantidad suficiente para), con esta materia prima se deben completar los 100 gramos, es decir restar a los 100g los 80.1g
 
@@ -717,7 +717,7 @@
             .col-lg-7
               p La cantidad de agua de rosas sería de 19.9 gramos.
 
-              figure
+              figure.mb-4
                 img(src='@/assets/curso/temas/tema1/img34.svg', alt='alt')
 
             .col-10.col-lg-5

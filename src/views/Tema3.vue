@@ -227,7 +227,7 @@
             p Asegurar la integridad de la preparación durante el tiempo previsto para su uso.
 
             .row 
-              .col-lg-5
+              .col-lg-5.mb-3
                 .tarjeta.color-secundario--borde.p-2
                   .row
                     b.text-center Causas de alteraciones:
@@ -242,7 +242,7 @@
                         i.fas.fa-circle.color-vineta1
                         | Agentes biológicos.
 
-              .col-lg-7
+              .col-lg-7.mb-3
                 .tarjeta.color-secundario--borde.p-2
                   .row
                     b.text-center Método de conservación:
@@ -265,7 +265,7 @@
        h2 3.4 Control de calidad de las preparaciones magistrales
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-8.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema3/img10.svg', alt='alt')
 
@@ -275,12 +275,12 @@
         p Para garantizar la calidad, se deberá aplicar paso a paso normas de B.PE; y examinar detalladamente los caracteres organolépticos de los preparados, un control de la rotulación y una serie de pruebas a realizar.
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3
         .tarjeta-numerada2.color-acento-contenido.p-4
           .tarjeta-numerada__numero
             .h2 1
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-6.col-lg-3
               figure.mb-4
                 img(src='@/assets/curso/temas/tema3/img11.svg', alt='alt')
           
@@ -304,12 +304,12 @@
               i.fas.fa-check
               | Un correcto juicio del farmacéutico a la hora de definir si el preparado cumple o no con las especificaciones técnicas.
 
-      .col-lg-6
+      .col-lg-6.mb-3
         .tarjeta-numerada2.color-secundario.p-4
           .tarjeta-numerada__numero
             .h2 2
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-6.col-lg-3
               figure.mb-4
                 img(src='@/assets/curso/temas/tema3/img12.svg', alt='alt')
           
@@ -368,8 +368,8 @@
     .row.justify-content-center.my-5
       .col-lg-9
         .tarjeta--azul1.p-4
-          .row 
-            .col-lg-4
+          .row.justify-content-center
+            .col-8.col-lg-4.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img13.svg', alt='alt').img13-tm3
 
