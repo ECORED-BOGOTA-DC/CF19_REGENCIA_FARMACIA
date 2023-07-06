@@ -241,75 +241,75 @@
                   img(src='@/assets/curso/temas/tema2/img18.svg', alt='alt')
 
 
-      .bg2
-        .row
-          h4 Requisitos del personal
+    .bg2.mb-5
+      .row
+        h4 Requisitos del personal
 
-      .row.mb-5
-        p Los requisitos para el personal involucrado en las preparaciones magistrales son:
+    .row.mb-5
+      p Los requisitos para el personal involucrado en las preparaciones magistrales son:
 
-      .row.justify-content-center.align-items-center
-        ImagenInfografica
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5
+      ImagenInfografica
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.tarjeta--blanca.p-3(x="17%" y="22%" numero="")
-            h3.text-center Calificación del personal
-            figure.mb-4
-              img(src='@/assets/curso/temas/tema2/img20.svg')
+        .tarjeta.tarjeta--blanca.p-3(x="17%" y="22%" numero="")
+          h3.text-center Calificación del personal
+          figure.mb-4
+            img(src='@/assets/curso/temas/tema2/img20.svg')
 
-            ul.lista-ul--color.fa-ul2
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Todo el personal debe tener la calificación, competencia y experiencia.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Seleccionar las personas que cumplan con el perfil.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Capacitar muy bien al personal y hacer acompañamiento luego de esto.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Recapacitar constantemente.
+          ul.lista-ul--color.fa-ul2
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Todo el personal debe tener la calificación, competencia y experiencia.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Seleccionar las personas que cumplan con el perfil.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Capacitar muy bien al personal y hacer acompañamiento luego de esto.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Recapacitar constantemente.
 
-          .tarjeta.tarjeta--blanca.p-3(x="52%" y="17%" numero="")
-            h3.text-center Capacitación
-            figure.mb-4
-              img(src='@/assets/curso/temas/tema2/img21.svg')
+        .tarjeta.tarjeta--blanca.p-3(x="52%" y="17%" numero="")
+          h3.text-center Capacitación
+          figure.mb-4
+            img(src='@/assets/curso/temas/tema2/img21.svg')
 
-            ul.lista-ul--color.fa-ul2
-              li 
-                i.fas.fa-circle.color-vineta1
-                | El proceso de capacitación inicia en el momento de la inducción al personal nuevo, cada vez que haya cambios en el listado básico de medicamentos, políticas de la empresa o temas de interés.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Todo el material utilizado en las capacitaciones debe ser archivado (documentos, diapositivas, etc.).
+          ul.lista-ul--color.fa-ul2
+            li 
+              i.fas.fa-circle.color-vineta1
+              | El proceso de capacitación inicia en el momento de la inducción al personal nuevo, cada vez que haya cambios en el listado básico de medicamentos, políticas de la empresa o temas de interés.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Todo el material utilizado en las capacitaciones debe ser archivado (documentos, diapositivas, etc.).
 
-          .tarjeta.tarjeta--blanca.p-3(x="77%" y="33%" numero="")
-            h3.text-center Higiene y seguridad personal
-            figure.mb-4
-              img(src='@/assets/curso/temas/tema2/img22.svg')
+        .tarjeta.tarjeta--blanca.p-3(x="77%" y="33%" numero="")
+          h3.text-center Higiene y seguridad personal
+          figure.mb-4
+            img(src='@/assets/curso/temas/tema2/img22.svg')
 
-            ul.lista-ul--color.fa-ul2
-              li 
-                i.fas.fa-circle.color-vineta1
-                | El personal debe ingresar sin maquillaje, joyas o perfumes.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Las uñas deben estar cortas para evitar la contaminación.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Usar los lockers correctamente.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Usar correctamente el uniforme y los EPP durante el ingreso y la permanencia dentro de las instalaciones.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Si presenta enfermedades infectocontagiosas no hará parte del proceso productivo.
-              li 
-                i.fas.fa-circle.color-vineta1
-                | No manipular materias primas ni equipos que no conozca.
+          ul.lista-ul--color.fa-ul2
+            li 
+              i.fas.fa-circle.color-vineta1
+              | El personal debe ingresar sin maquillaje, joyas o perfumes.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Las uñas deben estar cortas para evitar la contaminación.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Usar los lockers correctamente.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Usar correctamente el uniforme y los EPP durante el ingreso y la permanencia dentro de las instalaciones.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | Si presenta enfermedades infectocontagiosas no hará parte del proceso productivo.
+            li 
+              i.fas.fa-circle.color-vineta1
+              | No manipular materias primas ni equipos que no conozca.
 
     .bg2.mb-4
       .row

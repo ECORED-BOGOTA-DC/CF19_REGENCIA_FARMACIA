@@ -484,13 +484,14 @@
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 1
-        span Unidades de medida y equivalencias. 
+        br
+        i Unidades de medida y equivalencias. 
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .tabla-a.color-acento-botones 
+        .tabla-a.color-secundario
           table
-            thead
+            thead(style='background-color: #E5DFF9')
               tr
                 th 
                 th Unidad
