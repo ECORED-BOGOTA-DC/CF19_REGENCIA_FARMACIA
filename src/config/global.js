@@ -71,7 +71,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistema de garantía de calidad',
         desarrolloContenidos: true,
         subMenu: [
           {
