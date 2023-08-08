@@ -42,7 +42,7 @@
                   | Que el producto terminado esté correctamente elaborado y controlado teniendo en cuenta los procedimientos operativos.
                 li 
                   i.fas.fa-circle.color-vineta1
-                  | Se debe contar con Batch récord donde quede registrada la historia de cada uno de los lotes elaborados.
+                  p.mb-0 Se debe contar con <i>Batch record</i> donde quede registrada la historia de cada uno de los lotes elaborados.
                 li 
                   i.fas.fa-circle.color-vineta1
                   | Que estén definidos los parámetros para la aprobación de cada lote que se elabores de la preparación magistral, además de su almacenaje, distribución y manipulación posterior.
@@ -130,7 +130,7 @@
         li.ps-lg-4
           .lista-ol--cuadro__vineta
             span.texto-negro #[b j]
-          p #[b Presentar las advertencias, como:] “Tóxico”, “No consuma alcohol”, “No usar durante el embarazo”, etc. “Manténgase fuera del alcance de los niños” u otras leyendas precautorias y de advertencias, cuando aplique, tales como “Uso externo”
+          p #[b Presentar las advertencias, como:] “Tóxico”, “No consuma alcohol”, “No usar durante el embarazo”, etc. “Manténgase fuera del alcance de los niños” u otras leyendas precautorias y de advertencias, cuando aplique, tales como “Uso externo”.
 
 
     .tarjeta--morada.p-4
@@ -145,7 +145,7 @@
           ul.lista-ul--color.fa-ul2
             li 
               i.fas.fa-check
-              | Denominación o nombre del preparado oficinal o, en su caso, de la fórmula magistral (Dicha fórmula debe estar descrita en un formulario de referencia como las farmacopeas u otros reconocidos internacionalmente).
+              | Denominación o nombre del preparado oficinal o, en su caso, de la fórmula magistral (dicha fórmula debe estar descrita en un formulario de referencia como las farmacopeas u otros reconocidos internacionalmente).
             li 
               i.fas.fa-check
               | Comunicar la composición cuantitativa y cualitativa de manera completa de los principios activos y de los excipientes presentes.
@@ -176,7 +176,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img6.svg', alt='Texto que describa la imagen')
       
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema3/img7.svg')")
+      .py-4.py-md-5(titulo="Modelo prospecto" :icono="require('@/assets/curso/temas/tema3/img7.svg')")
         .row
           figure
             img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen')
@@ -194,7 +194,7 @@
       .col-lg-10
         p Para determinar las fechas de vencimiento de las fórmulas magistrales tipificadas (que estén descritas en las farmacopeas o recetarios reconocidos internacionalmente), se debe contemplar y tener en cuenta la caducidad que esté reportada en las farmacopeas u otras referencias reconocidas internacionalmente. En el resto de las fórmulas magistrales la fecha de vencimiento se establece teniendo en cuenta la duración del tratamiento prescrito.
 
-        p A continuación, se muestran algunos aspectos para tener en cuenta al momento de determinar las fechas de vencimiento de las preparaciones magistrale
+        p A continuación, se muestran algunos aspectos para tener en cuenta al momento de determinar las fechas de vencimiento de las preparaciones magistrales
 
     .row.justify-content-center.align-items-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
@@ -278,7 +278,7 @@
       .col-lg-6.mb-3
         .tarjeta-numerada2.color-acento-contenido.p-4
           .tarjeta-numerada__numero
-            .h2 1
+            .h2.texto-blanco 1
           .row.justify-content-center.align-items-center
             .col-6.col-lg-3
               figure.mb-4
@@ -307,10 +307,10 @@
       .col-lg-6.mb-3
         .tarjeta-numerada2.color-secundario.p-4
           .tarjeta-numerada__numero
-            .h2 2
+            .h2.texto-blanco 2
           .row.justify-content-center.align-items-center
             .col-6.col-lg-3
-              figure.mb-4
+              figure.mb-2
                 img(src='@/assets/curso/temas/tema3/img12.svg', alt='alt')
           
             .col-lg-9
@@ -320,7 +320,7 @@
             .col-lg-6
               b Cápsulas y comprimidos:
 
-              ul.lista-ul--color.fa-ul2
+              ul.lista-ul--color.fa-ul2.mb-5
                 li 
                   i.fas.fa-check
                   | Uniformidad de peso.
@@ -365,16 +365,16 @@
        h2 3.5 Entes reguladores
 
 
-    .row.justify-content-center.my-5
+    .row.justify-content-center.align-items-center.my-5
       .col-lg-9
         .tarjeta--azul1.p-4
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-8.col-lg-4.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img13.svg', alt='alt').img13-tm3
 
             .col-lg-8
-              p El ente regulatorio encargado del seguimiento, auditoría y de otorgar la certificación es el Instituto Nacional de Vigilancia de Medicamentos y Alimentos INVIMA. 
+              b.mb-0 El ente regulatorio encargado del seguimiento, auditoría y de otorgar la certificación es el Instituto Nacional de Vigilancia de Medicamentos y Alimentos INVIMA. 
 
 
 

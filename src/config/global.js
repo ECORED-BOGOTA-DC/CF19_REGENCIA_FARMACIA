@@ -223,7 +223,7 @@ export default {
     {
       termino: 'INVIMA',
       significado:
-        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
+        ' Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
     },
     {
       termino: 'Monografía de preparado farmacéutico',
@@ -232,11 +232,11 @@ export default {
     },
     {
       termino: 'POS',
-      significado: 'Procedimiento Operativo Standard.',
+      significado: ' Procedimiento Operativo Standard.',
     },
     {
       termino: 'PQRS',
-      significado: 'Peticiones, Quejas, Reclamos y Sugerencias.',
+      significado: ' Peticiones, Quejas, Reclamos y Sugerencias.',
     },
     {
       termino: 'Preparación magistral',
@@ -265,11 +265,11 @@ export default {
     },
     {
       termino: 'SGC',
-      significado: 'Sistema de Gestión de Calidad.',
+      significado: ' Sistema de Gestión de Calidad.',
     },
     {
       termino: 'SI',
-      significado: 'Sistema Internacional de Unidades.',
+      significado: ' Sistema Internacional de Unidades.',
     },
   ],
   referencias: [

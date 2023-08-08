@@ -30,7 +30,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema2/img2.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema2/img2.png', alt='alt')      
 
     .row.mb-5
       p Las buenas prácticas de elaboración se rigen por medio del cumplimiento de los siguientes ejes:
@@ -113,13 +113,13 @@
     .row.mb-4
       p A continuación, se podrán conocer los requisitos de las B.P.E 
 
-    .bg2
-      .row
-        h4 Requisitos de las instalaciones
+    .row.bg-titulo1.align-items-center(data-aos="fade-right")
+      h4.mt-2 Requisitos de las instalaciones
+
 
     .bg3.mb-5
       .row.mb-5
-        p Las instalaciones del establecimiento o servicio farmacéutico donde se vayan a realizar las preparaciones magistrales deben cumplir con los siguientes requisitos:z
+        p.mt-4 Las instalaciones del establecimiento o servicio farmacéutico donde se vayan a realizar las preparaciones magistrales deben cumplir con los siguientes requisitos:z
 
       .row.justify-content-center.align-items-center.mb-5  
         .tarjeta.tarjeta--morada.p-4
@@ -198,7 +198,7 @@
             .row(titulo="Pisos y paredes ")
               .col-md-7.mb-4.mb-md-0
                 h4 Pisos y paredes 
-                p Todas las superficies (Techos, paredes y pisos), deben ser lisas y sin grietas para facilitar la limpieza, desinfección y evitar la acumulación de suciedades. Es importante contar con protección frente a insectos y roedores.
+                p Todas las superficies (techos, paredes y pisos), deben ser lisas y sin grietas para facilitar la limpieza, desinfección y evitar la acumulación de suciedades. Es importante contar con protección frente a insectos y roedores.
             
               .col-md-5
                 figure
@@ -216,7 +216,7 @@
             .row(titulo="Iluminación adecuada")
               .col-md-7.mb-4.mb-md-0
                 h4 Iluminación adecuada
-                p Una iluminación adecuada que permita la correcta visualización de las materias primas, documentos y el desplazamiento por la áreas.
+                p Una iluminación adecuada que permita la correcta visualización de las materias primas, documentos y el desplazamiento por las áreas.
             
               .col-md-5
                 figure
@@ -225,7 +225,7 @@
             .row(titulo="Separación áreas")
               .col-md-7.mb-4.mb-md-0
                 h4 Separación áreas
-                p Con el objetivo de evitar la contaminación cruzada y la confusión, las áreas deben estar separadas (Área administrativa, pesaje, recepción, almacenamiento, preparación, etc.).
+                p Con el objetivo de evitar la contaminación cruzada y la confusión, las áreas deben estar separadas (área administrativa, pesaje, recepción, almacenamiento, preparación, etc.).
             
               .col-md-5
                 figure
@@ -241,9 +241,8 @@
                   img(src='@/assets/curso/temas/tema2/img18.svg', alt='alt')
 
 
-    .bg2.mb-5
-      .row
-        h4 Requisitos del personal
+    .row.bg-titulo1.align-items-center.mb-5(data-aos="fade-right")
+      h4.mt-2 Requisitos del personal
 
     .row.mb-5
       p Los requisitos para el personal involucrado en las preparaciones magistrales son:
@@ -300,7 +299,7 @@
               | Las uñas deben estar cortas para evitar la contaminación.
             li 
               i.fas.fa-circle.color-vineta1
-              | Usar los lockers correctamente.
+              p.mb-0 Usar los <i>lockers</i> correctamente.
             li 
               i.fas.fa-circle.color-vineta1
               | Usar correctamente el uniforme y los EPP durante el ingreso y la permanencia dentro de las instalaciones.
@@ -311,9 +310,8 @@
               i.fas.fa-circle.color-vineta1
               | No manipular materias primas ni equipos que no conozca.
 
-    .bg2.mb-4
-      .row
-        h4 Requisitos de los materiales y utensilios
+    .row.bg-titulo1.align-items-center.mb-5(data-aos="fade-right")
+      h4.mt-2 Requisitos de los materiales y utensilios
 
     .row.mb-5
       p Los requisitos para los materiales y utensilios involucrados en las preparaciones magistrales son: 
@@ -411,9 +409,8 @@
             b.text-center.mt-4 Programa informático
 
     .bg4
-      .bg2.mb-4
-        .row
-          h4 Requisitos de los materiales y utensilios    
+      .row.bg-titulo1.align-items-center.mb-5(data-aos="fade-right")
+        h4.mt-2 Requisitos de las materias primas    
 
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4
@@ -467,7 +464,7 @@
             thead
               tr
                 <th style="background-color: #E5DFF9 !important">Materias primas - bases</th>
-                <th style="background-color: #E5DFF9 !important">Material de envase y/o acondicionamiento</th>
+                <th style="background-color: #E5DFF9 !important">Material de envase o acondicionamiento</th>
 
             tbody
               tr.text-center
@@ -479,9 +476,9 @@
                 <td colspan="2" style="background-color: #DCFBFF !important"><b>Aprobación o rechazo</b></td>
 
               tr
-                td En esta etapa se envía una muestra laboratorio externo contratado quien analiza las muestras de acuerdo con especificaciones internas o según USP, y emite el certificado, con el cual se aprueba o rechazan las materias primas y/o bases. Y aseguramiento de calidad emite los rótulos de aprobado o rechazo.
+                td En esta etapa se envía una muestra laboratorio externo contratado quien analiza las muestras de acuerdo con especificaciones internas o según USP, y emite el certificado, con el cual se aprueba o rechazan las materias primas o bases. Y aseguramiento de calidad emite los rótulos de aprobado o rechazo.
 
-                td Aseguramiento de calidad realiza el análisis de los materiales de envase y/o acondicionamiento, y emite los rótulos de aprobado o rechazo.
+                td Aseguramiento de calidad realiza el análisis de los materiales de envase o acondicionamiento, y emite los rótulos de aprobado o rechazo.
               tr.text-center
                 <td colspan="2" style="background-color: #DCFBFF !important"><b>Identificación y almacenamiento</b></td>
               tr
@@ -489,9 +486,8 @@
               
 
 
-    .bg2.mb-4
-      .row
-        h4 Requisitos de la documentación
+    .row.bg-titulo1.align-items-center.mb-5(data-aos="fade-right")
+      h4.mt-2 Requisitos de la documentación
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4
@@ -524,7 +520,7 @@
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-4
           .tarjeta-numerada__numero
-            .h2 2
+            .h2.texto-blanco 2
 
           p Cada vez que se cometa un error a la hora de registrar la información se debe corregir colocando una línea oblicua de tal manera que el error sea visible y colocar la firma autorizada de quien corrige, la fecha, y la información correcta.
 

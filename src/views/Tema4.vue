@@ -64,13 +64,13 @@
             img(src='@/assets/curso/temas/tema4/img5.svg', alt='Texto que describa la imagen')
 
         .tarjeta.tarjeta--morada.p-3(x="40.5%" y="10%" numero="")
-          p Métodos de valoración (Conocer el porcentaje de pureza de la materia prima).
+          p Métodos de valoración (conocer el porcentaje de pureza de la materia prima).
 
         .tarjeta.tarjeta--morada.p-3(x="21%" y="85%" numero="")
           p Indicaciones para el rotulado.
 
     .row.mb-5
-      p Con el objetivo de complementar el conocimiento adquirido y teniendo en cuenta que el alcance del Tecnólogo (a) en Regencia de Farmacia abarca las preparaciones magistrales no estériles, se propone al aprendiz consultar la guía con los requerimientos necesarios para el cumplimiento de las preparaciones magistrales estériles, presente en la sección de material complementario.
+      p Con el objetivo de complementar el conocimiento adquirido y teniendo en cuenta que el alcance del Tecnólogo(a) en Regencia de Farmacia abarca las preparaciones magistrales no estériles, se propone al aprendiz consultar la guía con los requerimientos necesarios para el cumplimiento de las preparaciones magistrales estériles, presente en la sección de material complementario.
 
 
 

@@ -16,7 +16,7 @@
           .row(titulo="Mundo arcaico")
             .col-md-6.mb-4.mb-md-0
               h4 Mundo arcaico:
-              p no existía separación entre el cuidado de la salud, las creencias religiosas y la magia. 
+              p No existía separación entre el cuidado de la salud, las creencias religiosas y la magia. 
               p Así, la preparación de los remedios para la salud solía estar en manos de hechiceros o sacerdotes.
           
             .col-md-6
@@ -26,7 +26,7 @@
           .row(titulo="Mundo clásico")
             .col-md-6.mb-4.mb-md-0
               h4 Mundo clásico:
-              p poco a poco se produce una separación entre la medicina y los tratamientos mágico-religiosos. 
+              p Poco a poco se produce una separación entre la medicina y los tratamientos mágico-religiosos. 
               p El cuidado de la salud es asumida por personas con una doble función, la de médico y la de farmacéutico preparando sus propios remedios curativos.          
             .col-md-6
               figure
@@ -35,7 +35,7 @@
           .row(titulo="Edad media")
             .col-md-6.mb-4.mb-md-0
               h4 Edad media:
-              p el farmacéutico empieza su actividad al margen del médico y se asocian en gremios. Realiza preparaciones magistrales en su botica.
+              p El farmacéutico empieza su actividad al margen del médico y se asocian en gremios. Realiza preparaciones magistrales en su botica.
 
             .col-md-6
               figure
@@ -44,7 +44,7 @@
           .row(titulo="Edad moderna")
             .col-md-6.mb-4.mb-md-0
               h4 Edad moderna:
-              p nacen y proliferan farmacopeas y formularios.
+              p Nacen y proliferan farmacopeas y formularios.
               
               ul.lista-ul--color.fa-ul2
                 li 
@@ -66,7 +66,7 @@
           .row(titulo="Actualidad")
             .col-md-6.mb-4.mb-md-0
               h4 Actualidad:
-              p la formulación magistral se mantiene como una actividad farmacéutica de notable interés a pesar de que el volumen de dispensaciones de fórmulas magistrales y de preparados oficinales en la oficina de farmacia y en los servicios farmacéuticos hospitalarios no es grande con respecto al número de medicamentos industriales dispensados y utilizados.
+              p La formulación magistral se mantiene como una actividad farmacéutica de notable interés a pesar de que el volumen de dispensaciones de fórmulas magistrales y de preparados oficinales en la oficina de farmacia y en los servicios farmacéuticos hospitalarios no es grande con respecto al número de medicamentos industriales dispensados y utilizados.
           
             .col-md-6
               figure
@@ -178,10 +178,10 @@
     .row.my-lg-5
       p.mt-lg-3 A continuación, ampliaremos la información sobre cada uno de ellos.
 
-    .row.justify-content-center.align-items-center.mb-5  
+    .row.justify-content-center.mb-5  
       .tarjeta.tarjeta--azul1
         PasosB.color-secundario.p-4
-          .row(titulo="Etapas")
+          .row.margin-top-1(titulo="Etapas")
             .col-lg-7
               h4 Etapas
               p En el esquema se puede observar las etapas generales del proceso, en donde se elabora la preparación magistral a partir de una prescripción médica y finalmente se realiza la intervención técnica dependiendo del nivel de complejidad del servicio farmacéutico o de establecimiento.
@@ -193,17 +193,17 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img12.svg', alt='alt')
 
-          .row(titulo="Objetivo")
+          .row.margin-top-2(titulo="Objetivo")
             .col-lg-11
               h4 Objetivo
               p En el diagrama se evidencia el objetivo principal de las preparaciones y un ejemplo donde se muestra la preparación de un producto a partir de las necesidades individuales de un paciente.
 
-              p Ejemplo
+              p Ejemplo:
 
               figure
                 img(src='@/assets/curso/temas/tema1/img13.svg', alt='alt')
 
-          .row(titulo="Lugares")
+          .row.margin-top-3(titulo="Lugares")
             .col-lg-7
               h4 Lugares
               p.mb-5 Los lugares donde se deben hacer las preparaciones magistrales, establecimientos y servicios farmacéuticos de mediana y alta complejidad son:
@@ -228,7 +228,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img16.svg', alt='alt')
 
-          .row(titulo="Personal")
+          .row.margin-top-4(titulo="Personal")
             .col-lg-7
               h4 Personal
               p El personal autorizado por la normatividad vigente para la realización de las preparaciones magistrales son:
@@ -245,7 +245,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img17.svg', alt='alt')
 
-          .row(titulo="Campos")
+          .row.margin-top-5(titulo="Campos")
             .col-lg-7
               h4 Campos
               p.mb-4 Es importante identificar los campos de acción de las preparaciones magistrales, con el objetivo de conocer cuál es su alcance.
@@ -356,7 +356,7 @@
         .row.justify-content-center
           .col-lg-4.mb-4
             .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')(style="width:40%")
+              img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
                 h4.text-center.mt-3 Semisólidas
@@ -379,7 +379,7 @@
 
           .col-lg-4.mb-4
             .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')(style="width:40%")
+              img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
                 h4.text-center.mt-3 Líquidas
@@ -393,7 +393,7 @@
 
           .col-lg-4.mb-4
             .tarjeta-avatar
-              img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')(style="width:40%")
+              img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
                 h4.text-center.mt-3 Sólidas
@@ -473,7 +473,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          p Es así como, para el contexto de la atención al cliente de servicios farmacéuticos, las respuesLas formas farmacéuticas sólidas (polvos, comprimidos, etc.) se deben medir en peso y las formas farmacéuticas líquidas en unidades de volumen. Para estas mediciones se debe utilizar el sistema métrico decimal.tas y acciones deben ser claras, veraces y, sobre todo, humanizadas.    
+          p.mb-0 Las formas farmacéuticas sólidas (polvos, comprimidos, etc.) se deben medir en peso y las formas farmacéuticas líquidas en unidades de volumen. Para estas mediciones se debe utilizar el sistema métrico decimal.   
 
         p Las soluciones como los jarabes, las cuales se administran por vía oral, pueden venir acompañados de cucharas para su dosificación, las cuales pueden llenarse más o menos, no son muy exactas, por eso en algunos casos se prefiere el uso de jeringas para su medición. Si el medicamento no cuenta con la cuchara dosificadora, pueden utilizarse las medidas domésticas que se plantean en la siguiente tabla. Si la dosis viene definida en gotas, el tamaño puede variar dependiendo de la viscosidad de la solución, del cuentagotas, etc. Si con el medicamento no se proporciona ningún cuentagotas o especifica una equivalencia diferente, se asume la equivalencia planteada en la tabla.
 
@@ -743,10 +743,10 @@
 
     .row.justify-content-center.mb-5
       TabsB.color-primario
-        .py-4.py-md-5(titulo="Masa/Volumen" :icono="require('@/assets/curso/temas/tema1/img36.svg')")
+        .py-4.py-md-5(titulo="Masa/volumen" :icono="require('@/assets/curso/temas/tema1/img36.svg')")
           .row
             .col-md-6.mb-4.mb-md-0
-              h4 Masa/Volumen
+              h4 Masa/volumen
               p Es una forma fácil de expresar una concentración.
               p Cuando se dice que un medicamento tiene una concentración de 5 mg/ml, quiere decir que hay 5 mg de fármaco (soluto) por cada ml de volumen de la disolución. 
           
@@ -764,13 +764,13 @@
               ul.lista-ul--color.fa-ul2
                 li 
                   i.fas.fa-circle.color-vineta1
-                  | #[b Porcentaje peso en peso:] g de soluto/100 g de disolución.
+                  p.mb-0 #[b Porcentaje peso en peso:]  g de soluto/100 g de disolución.
                 li 
                   i.fas.fa-circle.color-vineta1
-                  | #[b Porcentaje peso en volumen:] g de soluto/100 ml de disolución.  
+                  p.mb-0 #[b Porcentaje peso en volumen:]  g de soluto/100 ml de disolución.  
                 li 
                   i.fas.fa-circle.color-vineta1
-                  | #[b Porcentaje volumen en volumen:] ml de soluto/100 ml de disolución. Siempre que no se especifique, se sobreentiende que se trata de concentración de peso en volumen (g/100 ml).
+                  p.mb-0 #[b Porcentaje volumen en volumen:]  ml de soluto/100 ml de disolución. Siempre que no se especifique, se sobreentiende que se trata de concentración de peso en volumen (g/100 ml).
 
             .col-md-6.mb-4.mb-md-0
               figure
