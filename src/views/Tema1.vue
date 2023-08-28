@@ -359,7 +359,7 @@
               img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
-                h4.text-center.mt-3 Semisólidas
+                h4.text-center.mt-4 Semisólidas
                 ul.lista-ul--color.fa-ul2
                   li 
                     i.fas.fa-check
@@ -382,7 +382,7 @@
               img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
-                h4.text-center.mt-3 Líquidas
+                h4.text-center.mt-4 Líquidas
                 ul.lista-ul--color.fa-ul2
                   li 
                     i.fas.fa-check
@@ -396,7 +396,7 @@
               img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')
 
               .tarjeta.tarjeta--blanca3.p-4
-                h4.text-center.mt-3 Sólidas
+                h4.text-center.mt-4 Sólidas
                 ul.lista-ul--color.fa-ul2
                   li 
                     i.fas.fa-check

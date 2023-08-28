@@ -194,7 +194,7 @@
       .col-lg-10
         p Para determinar las fechas de vencimiento de las fórmulas magistrales tipificadas (que estén descritas en las farmacopeas o recetarios reconocidos internacionalmente), se debe contemplar y tener en cuenta la caducidad que esté reportada en las farmacopeas u otras referencias reconocidas internacionalmente. En el resto de las fórmulas magistrales la fecha de vencimiento se establece teniendo en cuenta la duración del tratamiento prescrito.
 
-        p A continuación, se muestran algunos aspectos para tener en cuenta al momento de determinar las fechas de vencimiento de las preparaciones magistrales
+        p A continuación, se muestran algunos aspectos para tener en cuenta al momento de determinar las fechas de vencimiento de las preparaciones magistrales.
 
     .row.justify-content-center.align-items-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
