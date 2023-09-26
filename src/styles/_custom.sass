@@ -18,7 +18,6 @@
     right: 68%
     width: 15%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -27,7 +26,7 @@
     transform: translateY(0px)
 
 .banner-principal__img
-  width: 450px !important
+  width: 430px !important
   padding-bottom: 0rem !important
 
 .banner-interno__fondo
@@ -35,6 +34,8 @@
 
 // ESTILOS GLOBALES -----------
 
+.tarjeta-avatar .tarjeta
+  width: 100%
 
 .tarjeta--azul1
   background-color: #DCFBFF
@@ -151,11 +152,6 @@
     @media (max-width: 750px)
       margin-top: -30% !important
 
-
-
-
-
-
 // tarjetas ---------------
 
 .tarjeta--morada
@@ -164,7 +160,7 @@
 .tarjeta--blanca2
   background-color: #ffffff
   border-radius: 20px
-  height: 380px
+  height: 100%
   @media (max-width: 500px)
     height: auto
 
@@ -198,9 +194,9 @@
     width: calc( 100% + 96px )
     height: 100%       
     background-image: url('../assets/curso/temas/tema1/fondo1.png')
-    background-size: 100% auto  
-    background-repeat: round
-    background-position: center top 
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
     @media (max-width: 500px)
       background-repeat: space
 
@@ -217,7 +213,7 @@ td
   position: relative
   margin-top: -15%
   margin-bottom: -25%
-  @media (max-width: 500px)
+  @media (max-width: $bp-min-lg)
     position: relative
     margin-top: 0%
     margin-bottom: 0%
@@ -226,7 +222,7 @@ td
   position: relative
   margin-top: -20%
   margin-bottom: -15%
-  @media (max-width: 500px)
+  @media (max-width: $bp-min-lg)
     margin-top: 0%
     margin-bottom: 0%
 
@@ -248,22 +244,24 @@ td
 .tarjeta--boton
   border-radius: 0px
   background-color: #DCFBFF
-  cursor: pointer
   transition: background-color 0.3s ease-in-out
-
-.tarjeta--morada2:hover
+.tarjeta--boton:hover
   background-color: #E5DFF9
-
-.tarjeta--morada3:hover
-  background-color: #E5DFF9
-  height: 580px
 
 .tarjeta--boton2
-    border-radius: 0px
-    background-color: #DCFBFF
-    cursor: pointer
-    transition: background-color 0.3s ease-in-out
-    height: 580px
+  background-color: #DCFBFF
+  transition: background-color 0.3s ease-in-out
+  height: 520px
+  @media (max-width: $bp-min-xxl)
+    height: 590px
+  @media (max-width: $bp-min-xl)
+    height: 380px
+  @media (max-width: $bp-min-lg)
+    height: 480px
+  @media (max-width: $bp-min-md)
+    height: auto
+.tarjeta--boton2:hover
+  background-color: #E5DFF9
 
 .tarjeta--morada4:hover
   background-color: #E5DFF9
@@ -278,15 +276,7 @@ td
 
 .tarjeta--azul3
   background-color: #DCFBFF
-  height: 350px
-  @media (max-width: 500px)
-    height: 350px
-  @media (min-width: 500px)
-    height: 450px
-  @media (min-width: 1000px)
-    height: 350px
-
-
+  height: 100%
 
 // imagenes ------------
 
@@ -321,11 +311,9 @@ td
       width: calc( 100% + -60px)
 
 .bg-titulo1
-  background-image: url("../assets/curso/temas/tema2/fondo1.png")
-  background-repeat: no-repeat
-  background-size: 35% 85%
-  @media (max-width: 900px)
-    background-size: 95% 100%
+  background-color: #81D4FA
+  border-top-right-radius: 30px
+  border-bottom-right-radius: 30px
 
 .bg3
   position: relative
@@ -378,10 +366,6 @@ td
 .tarjeta-numerada__numero
   left: -10px
 
-
-
-
-
 /// ESTILOS TEMA 3 ----------------
 
 // tarjetas -------
@@ -389,13 +373,15 @@ td
 .tarjeta--azul4
   background-color: #DCFBFF
   border-bottom-right-radius: 200px
+  @media (max-width: $bp-min-lg)
+    border-bottom-right-radius: 80px
 
 .tarjeta.color-secundario--borde
   color: #12263F
   border: solid 3px #7E5EE3
   background-color: #DCFBFF
   border-radius: 0px
-  height: 280px
+  height: 100%
 
 // tarjeta numerada ------
 

@@ -1,8 +1,8 @@
-# **ecoredsena-base v7.0.1**
+# **Conceptos generales y normatividad magistrales**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-bogota-dc.github.io/CF19_REGENCIA_FARMACIA/](https://ecored-bogota-dc.github.io/CF19_REGENCIA_FARMACIA/)
 
 #
 
