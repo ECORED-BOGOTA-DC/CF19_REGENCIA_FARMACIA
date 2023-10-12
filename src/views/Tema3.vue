@@ -157,11 +157,11 @@
       .py-4.py-md-5(titulo="Modelo rótulo" :icono="require('@/assets/curso/temas/tema3/img5.svg')")
         .row
           figure
-            img(src='@/assets/curso/temas/tema3/img6.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema3/img6.svg', alt='Imagen de un ejemplo de modelo rótulo, el cual contiene datos como la farmacia elaboradora, el nombre del producto, la matrícula, el lote, entre otros aspectos.')
       .py-4.py-md-5(titulo="Modelo prospecto" :icono="require('@/assets/curso/temas/tema3/img7.svg')")
         .row
           figure
-            img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imagen que relaciona un ejemplo sobre cómo entregar la información al paciente, cuando no se puede incluir toda en la etiqueta, esto basado en un modelo de un prospecto diclofenaco dietilamino 1.16 % al tópico antiinflamatorio.')
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
        h2 3.3 Fechas de vencimiento
@@ -182,9 +182,6 @@
           .row.justify-content-center
             h4 Periodo de validez
             ul.lista-ul--color.fa-ul2
-              li 
-                i.fas.fa-circle.color-vineta1
-                | Preparaciones sólidas o líquidas no acuosas, a partir de una especialidad, fuente de principio activo: 25 % del tiempo remanente o 6 meses.
               li 
                 i.fas.fa-circle.color-vineta1
                 | Preparaciones sólidas o líquidas no acuosas, a partir de una especialidad, fuente de principio activo: 25 % del tiempo remanente o 6 meses.

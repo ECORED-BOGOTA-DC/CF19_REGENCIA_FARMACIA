@@ -30,7 +30,7 @@
       ImagenInfografica.mb-3(data-aos="fade-right")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema4/img3.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema4/img3.svg', alt='Imagen que describe los aspectos iniciales que se encuentran en el ejemplo de la farmacopea.')
         .tarjeta.tarjeta--morada.p-3(x="23%" y="11%" numero="")
           p Identificación de la materia prima (Ácido Bórico) utilizado en preparaciones magistrales como antiséptico para el tratamiento del Acné.
         .tarjeta.tarjeta--morada.p-3(x="25.5%" y="53%" numero="")
@@ -40,20 +40,19 @@
       ImagenInfografica.mb-3(data-aos="fade-left")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema4/img4.svg', alt='Texto que describa la imagen')
-
+            img(src='@/assets/curso/temas/tema4/img4.svg', alt='Imagen que menciona los aspectos presentes en la identificación de la farmacopea.')
         .tarjeta.tarjeta--morada.p-3(x="45%" y="14%" numero="")
           p Métodos de identificación cualitativos y cuantitativos.
       ImagenInfografica.mb-3(data-aos="fade-right")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema4/img5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema4/img5.svg', alt='Imagen que relaciona en el ejemplo de la farmacopea, información del límite de metales pesados, la valoración y la rotulación.')
         .tarjeta.tarjeta--morada.p-3(x="40.5%" y="10%" numero="")
           p Métodos de valoración (conocer el porcentaje de pureza de la materia prima).
         .tarjeta.tarjeta--morada.p-3(x="21%" y="85%" numero="")
           p Indicaciones para el rotulado.
     .row
-      p.mb-0(data-aos="fade-left") Con el objetivo de complementar el conocimiento adquirido y teniendo en cuenta que el alcance del Tecnólogo(a) en Regencia de Farmacia abarca las preparaciones magistrales no estériles, se propone al aprendiz consultar la guía con los requerimientos necesarios para el cumplimiento de las preparaciones magistrales estériles, presente en la sección de material complementario.
+      p.mb-0(data-aos="fade-left") Con el objetivo de complementar el conocimiento adquirido y teniendo en cuenta que el alcance del Tecnólogo(a) en Regencia de Farmacia abarca las preparaciones magistrales no estériles, se propone al aprendiz consultar la Guía de gestión de la calidad en el proceso de elaboración de magistrales estériles con base en la estructura de alto nivel, presente en la sección de material complementario.
 
 </template>
 

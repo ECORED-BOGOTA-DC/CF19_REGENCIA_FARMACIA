@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-down")
         figure
-          img(src='@/assets/curso/temas/tema2/img2.png', alt='alt')      
+          img(src='@/assets/curso/temas/tema2/img2.png', alt='Imagen que contiene un esquema de los requisitos generales de las B.P.E.')      
     .row.mb-5
       p(data-aos="fade-right") Las buenas prácticas de elaboración se rigen por medio del cumplimiento de los siguientes ejes:
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
@@ -30,21 +30,21 @@
           .row.justify-content-center.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img3.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img3.svg', alt='')
           h3.text-center.mt-4 Instalaciones
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.tarjeta--morada2.p-4
           .row.justify-content-center.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img4.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img4.svg', alt='')
           h3.text-center.mt-4 Personal
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton.tarjeta--morada2.p-4
           .row.justify-content-center.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img5.svg', alt='')
           h3.text-center.mt-4 Equipos y utensilios
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -52,14 +52,14 @@
           .row.justify-content-center.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img6.svg', alt='')
           h3.text-center.mt-4 Materias primas
       .col-sm-6.col-lg-3
         .tarjeta--boton.tarjeta--morada2.p-4
           .row.justify-content-center.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img7.svg', alt='')
           h3.text-center.mt-4 Documentación
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .tarjeta.color-secundario.p-3.mb-5
@@ -136,7 +136,7 @@
                   img(src='@/assets/curso/temas/tema2/img10.svg', alt='alt')
             .row(titulo="Funcionamiento del proceso")
                 h4 Funcionamiento del proceso
-                p Para un correcto funcionamiento del proceso, las instalaciones deben garantizar los siguiente:
+                p Para un correcto funcionamiento del proceso, las instalaciones deben garantizar lo siguiente:
                 figure.mt-5
                   img(src='@/assets/curso/temas/tema2/img11.svg', alt='alt')
             .row(titulo="Control temperatura")
@@ -208,7 +208,7 @@
       ImagenInfografica(data-aos="fade-down")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img19.svg', alt='')
         .tarjeta.tarjeta--blanca.p-3(x="17%" y="22%" numero="")
           h3.text-center Calificación del personal
           figure.mb-4
@@ -271,28 +271,28 @@
           .row.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img23.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img23.svg', alt='')
           p Deben ser de tamaño adecuado a los fines de uso al que está destinado. Ha de estar sometido a una #[b revisión periódica y adecuada calibración.] Se verificará, cada vez, previo al inicio de un proceso de elaboración.
       .col-md-6.col-xl-3.mb-4
         .tarjeta--boton2.p-4
           .row.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img24.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img24.svg', alt='')
           p Deben ser elaborados en materiales que #[b se puedan lavar, sanitizar y esterilizar fácilmente.] Se tendrá presente que ninguna de las superficies que estarán en contacto con el producto, puedan afectar la calidad de este o de sus componentes.
       .col-md-6.col-xl-3.mb-4
         .tarjeta--boton2.p-4
           .row.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img25.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img25.svg', alt='')
           p Verificar que ningún #[b elemento que se utilice para el adecuado funcionamiento o mantención del equipo], instrumento o accesorio pueda reaccionar o contaminar el producto o sus componentes.
       .col-md-6.col-xl-3.mb-4
         .tarjeta--boton2.p-4
           .row.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema2/img26.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img26.svg', alt='')
           p El instrumental y otros accesorios que intervienen en la elaboración y el control de calidad deben mantenerse limpios y en buenas condiciones de funcionamiento. Tanto las #[b operaciones de limpieza como su mantenimiento deben estar caracterizadas por su efectividad], se realizará según procedimientos que se especificarán por escrito. Se dispondrá que la limpieza se realice inmediatamente después del uso.
     .row.mb-4
       p(data-aos="fade-right") Algunos de los materiales necesarios para el proceso de producción, son
@@ -459,7 +459,7 @@
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema2/img41.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img41.svg', alt='')
           .row
             b.text-center.mb-4 Especificaciones de las materias primas
           .row.justify-content-center.mt-3
@@ -470,13 +470,13 @@
           ModalA(:abrir-modal.sync="modal1")
             .row.justify-content-center.align-items-center
               figure
-                img(src='@/assets/curso/temas/tema2/img45.svg', alt='alt')(style="width:80%")  
+                img(src='@/assets/curso/temas/tema2/img45.svg', alt='Imagen con un formato de especificaciones de las materias primas, el cual contiene los datos de identificación, especificaciones, conservación/manipulación, entre otros.')(style="width:550px").m-auto
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton3.tarjeta--morada4.p-4
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema2/img42.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img42.svg', alt='')
           .row
             b.text-center.mb-5 Registro materias primas
           .row.justify-content-center.mt-3
@@ -487,13 +487,13 @@
           ModalA(:abrir-modal.sync="modal2")
             .row.justify-content-center.align-items-center
               figure
-                img(src='@/assets/curso/temas/tema2/img46.svg', alt='alt')(style="width:80%")
+                img(src='@/assets/curso/temas/tema2/img46.svg', alt='Imagen con un formato de registro de materias primas, el cual contiene los datos de identificación y los complementarios. ')(style="width:750px").m-auto
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton3.tarjeta--morada4.p-4
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema2/img43.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img43.svg', alt='')
           .row
             b.text-center Documento registro del material de acondicionamiento
           .row.justify-content-center.mt-3
@@ -504,13 +504,13 @@
           ModalA(:abrir-modal.sync="modal3")
             .row.justify-content-center.align-items-center
               figure
-                img(src='@/assets/curso/temas/tema2/img47.svg', alt='alt')(style="width:80%")
+                img(src='@/assets/curso/temas/tema2/img47.svg', alt='Imagen con un formato de documento de registro del material de condicionamiento, el cual contiene los datos de identificación, los complementarios y los de evaluación.')(style="width:650px").m-auto
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton3.tarjeta--morada4.p-4
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema2/img44.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img44.svg', alt='')
           .row
             b.text-center.mb-4 Registro fórmula farmacéutica
           .row.justify-content-center.mt-3
@@ -521,7 +521,7 @@
           ModalA(:abrir-modal.sync="modal4")
             .row.justify-content-center.align-items-center
               figure
-                img(src='@/assets/curso/temas/tema2/img48.svg', alt='alt')(style="width:80%")
+                img(src='@/assets/curso/temas/tema2/img48.svg', alt='Imagen con un formato de registro fórmula médica, el cual contiene los datos del registro de la fórmula, como son el nombre, forma farmacéutica / vía administración, lote, caducidad, entre otros.')(style="width:750px").m-auto
 
 </template>
 

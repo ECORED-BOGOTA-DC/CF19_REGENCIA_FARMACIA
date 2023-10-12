@@ -84,7 +84,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/img8.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Esquema que describe el proceso del establecimiento o servicio farmacéutico, el cual contiene aspectos generales y especiales.')
     .row.justify-content-center.align-items-center.mb-5
       .col-auto.col-lg-1(data-aos="fade-right")
         figure
@@ -160,7 +160,7 @@
               h4 Etapas
               p En el esquema se puede observar las etapas generales del proceso, en donde se elabora la preparación magistral a partir de una prescripción médica y finalmente se realiza la intervención técnica dependiendo del nivel de complejidad del servicio farmacéutico o de establecimiento.
               figure.mb-4
-                img(src='@/assets/curso/temas/tema1/img11.svg', alt='alt')  
+                img(src='@/assets/curso/temas/tema1/img11.svg', alt='Imagen que contiene un esquema de las etapas generales del proceso de las preparaciones magistrales.')  
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img12.svg', alt='alt' style="width:350px").m-auto
@@ -170,7 +170,7 @@
               p En el diagrama se evidencia el objetivo principal de las preparaciones y un ejemplo donde se muestra la preparación de un producto a partir de las necesidades individuales de un paciente.
               p Ejemplo:
               figure
-                img(src='@/assets/curso/temas/tema1/img13.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen con un ejemplo de diagrama de objetivos específicos de las preparaciones magistrales, los cuales son de acuerdo a cada gráfica presentada, así: Niña enferma. Tableta de medicamentos. Personas que diagnostica.')
           .row.align-items-center(titulo="Lugares")
             .col-lg-7
               h4 Lugares
@@ -413,7 +413,7 @@
           table
             thead(style='background-color: #E5DFF9')
               tr
-                th 
+                th Equivalencia
                 th Unidad
                 th Abreviatura
                 th Unidad equivalente
@@ -500,13 +500,13 @@
     .row.justify-content-center
       .tarjeta.tarjeta--morada.p-4(data-aos="fade-left")
         SlyderA(tipo="b")
-          .row
+          .row.m-1
             .col-lg-7
               p De acuerdo con la normatividad colombiana, los formatos utilizados para las fórmulas de las preparaciones magistrales deben contener, por lo menos, los siguientes datos, cuando apliquen:
               ul.lista-ul--color.fa-ul2
                 li 
                   i.fas.fa-angle-right.color-vineta2
-                  | Nombre de prestador de servicios de salud o profesional de la salud que prescribe, dirección y número telefónico o dirección de correo electrónica.
+                  | Nombre de prestador de servicios de salud o profesional de la salud que prescribe, dirección y número telefónico o dirección de correo electronico.
                 li 
                   i.fas.fa-angle-right.color-vineta2
                   | Lugar y fecha de la prescripción.
@@ -588,7 +588,7 @@
             .col-10.col-lg-3.d-none.d-lg-block
               figure.mt-5
                 img(src='@/assets/curso/temas/tema1/img32.svg', alt='alt')
-          .row
+          .row.m-1
             .col-lg-7
               p En el ejemplo previo, el médico definió que la cantidad a preparar es de 100g, por lo que el químico farmacéutico o el regente de farmacia deberán calcular los porcentajes basados en esta cantidad de la siguiente forma:
               ul.lista-ul--color.fa-ul2
@@ -609,11 +609,11 @@
             .col-10.col-lg-5.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema1/img33.svg', alt='alt')
-          .row
+          .row.m-1
             .col-lg-7
               p La cantidad de agua de rosas sería de 19.9 gramos.
               figure.mb-4
-                img(src='@/assets/curso/temas/tema1/img34.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img34.svg', alt='Imagen con un ejemplo de una receta magistral con cada uno de sus componentes.')
             .col-10.col-lg-5.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema1/img35.svg', alt='alt')
@@ -621,7 +621,7 @@
       .row
         .col-12
           figure
-            img(src='@/assets/curso/temas/tema1/img32-1.svg', alt='alt')(style="width:65%").m-auto
+            img(src='@/assets/curso/temas/tema1/img32-1.svg', alt='Ejemplo de una Fórmula Magistral del CENTRO DERMATOLÓGICO ABC. NIT. 123456789.')(style="width:65%").m-auto
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
        h2 1.4 Concentraciones
@@ -637,7 +637,7 @@
               p Cuando se dice que un medicamento tiene una concentración de 5 mg/ml, quiere decir que hay 5 mg de fármaco (soluto) por cada ml de volumen de la disolución. 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img37.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img37.svg', alt='')
         .py-4.py-md-5(titulo="Porcentaje (%)" :icono="require('@/assets/curso/temas/tema1/img38.svg')")
           .row
             .col-md-6
@@ -657,7 +657,7 @@
                   p.mb-0 #[b Porcentaje volumen en volumen:]  ml de soluto/100 ml de disolución. Siempre que no se especifique, se sobreentiende que se trata de concentración de peso en volumen (g/100 ml).
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img39.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img39.svg', alt='')
         .py-4.py-md-5(titulo="Razón" :icono="require('@/assets/curso/temas/tema1/img40.svg')")
           .row
             .col-md-6
@@ -674,7 +674,7 @@
                   | Cuando se expresa como razón, si no se especifican las unidades, se sobreentiende que se refiere a g de soluto por ml de volumen.
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img41.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img41.svg', alt='')
       
 </template>
 

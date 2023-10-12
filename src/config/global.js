@@ -139,7 +139,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/331502_CF19_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -167,14 +167,6 @@ export default {
         'Red de autoridades de medicamentos de Iberoamérica. (2016). <i>Guía de buenas prácticas de elaboración y control de calidad de preparaciones magistrales y oficinales.</i>',
       tipo: 'Documento',
       descarga: '/downloads/Anexo_6_CF019_guia_de_buenas_practicas.pdf',
-    },
-    {
-      tema: 'Buenas prácticas',
-      referencia:
-        'Correa, O. <i>Preparados magistrales y oficinales no estériles.</i>',
-      tipo: 'Documento',
-      descarga:
-        '/downloads/Anexo_5_CF019_documento_magistrales_no_esteriles.pdf',
     },
     {
       tema: 'Buenas prácticas',
@@ -335,6 +327,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'Edwing Amir Moreno Moreno',
+          cargo: 'Experto temático',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Gustavo Santis Mancipe',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
           nombre: 'Nelly Parra Guarín',
           cargo: 'Adecuación instruccional - 2023',
           centro:
@@ -353,13 +372,13 @@ export default {
       autores: [
         {
           nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseño web - 2023',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollo fullstack - 2023',
+          cargo: 'Desarrollo fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
